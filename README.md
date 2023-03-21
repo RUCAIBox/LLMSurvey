@@ -20,45 +20,30 @@
 ## Table of Contents
 
 - [Resources of LLMs](#resources-of-llms)
+  - [Open-source Models](#Open-source-Models)
+
 - [Pre-training](#pre-training) 
 - [Adaptation Tuning of LLMs](#adaptation-tuning-of-llms)
 - [Utilization](#utilization)
 - [Capacity Evaluation](#capacity-evaluation)
 
-
 ## Resources of LLMs
 
-| **Paper** | **Author** | **Venue** | **Code** |
-| --------- | ---------- | --------- | -------- |
-|           |            |           |          |
-|           |            |           |          |
+### Open-source Models
+
+1. **"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer"** . *Colin Raffel* . JMLR. [[Paper](http://jmlr.org/papers/v21/20-074.html)] [[Checkpoint](https://huggingface.co/t5-base)]
+
+
 
 
 ## Pre-training
 
-| **Paper** | **Author** | **Venue** | **Code** |
-| --------- | ---------- | --------- | -------- |
-|           |            |           |          |
-
 
 ## Adaptation Tuning of LLMs
-
-| **Paper** | **Author** | **Venue** | **Code** |
-| --------- | ---------- | --------- | -------- |
-|           |            |           |          |
 
 
 ## Utilization
 
-| **Paper** | **Author** | **Venue** | **Code** |
-| --------- | ---------- | --------- | -------- |
-|           |            |           |          |
-
 
 ## Capacity Evaluation
-
-| **Paper** | **Author** | **Venue** | **Code** |
-| --------- | ---------- | --------- | -------- |
-|           |            |           |          |
-|           |            |           |          |
 
