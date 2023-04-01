@@ -8,7 +8,7 @@
 > If you find our survey useful for your research, please cite the following paper:
 
 ```
-@article{LLMurvey,
+@article{LLMSurvey,
     title={A Survey of Large Language Models},
     author={Wayne Xin Zhao},
     year={2023},
