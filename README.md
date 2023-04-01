@@ -12,7 +12,7 @@
     title={A Survey of Large Language Models},
     author={Wayne Xin Zhao},
     year={2023},
-    journal={}
+    journal={coRR}
 }
 ```
 
@@ -21,7 +21,8 @@
 
 - [Resources of LLMs](#resources-of-llms)
   - [Open-source Models](#Open-source-Models)
-
+  - [Closed-source Models](#closed-source-models)
+  
 - [Pre-training](#pre-training) 
 - [Adaptation Tuning of LLMs](#adaptation-tuning-of-llms)
 - [Utilization](#utilization)
@@ -53,7 +54,30 @@
 
 1. **"GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding"** . *Dmitry Lepikhin* . ICLR. [[Paper](http://arxiv.org/abs/2006.16668v1)]
 2. **"Language Models are Few-Shot Learners"** . *Tom B. Brown* . NeurIPS. [[Paper](https://arxiv.org/abs/2005.14165)]
-3. 
+3. **"LaMDA: Language Models for Dialog Applications"** . *Romal Thoppilan* . CoRR. [[Paper](https://arxiv.org/abs/2201.08239)]
+4. **"What Changes Can Large-scale Language Models Bring? Intensive Study on HyperCLOVA: Billions-scale Korean Generative Pretrained Transformers"** . *Boseop Kim* . EMNLP. [[Paper](https://arxiv.org/abs/2109.04650)]
+5. **"Evaluating Large Language Models Trained on Code"** . *Mark Chen* . arXiv. [[Paper](https://arxiv.org/abs/2107.03374)]
+6. **"ERNIE 3.0: Large-scale Knowledge Enhanced Pre-training for Language Understanding and Generation"** . *Y*u Sun . arXiv. [[Paper](https://arxiv.org/abs/2107.02137)]
+7. **"Jurassic-1: Technical details and evaluation"** . Opher Lieber. [[Paper](https://assets.website-files.com/60fd4503684b466578c0d307/61138924626a6981ee09caf6_jurassic_tech_paper.pdf)]
+8. **"Finetuned Language Models Are Zero-Shot Learners"** . *Jason Wei* . ICLR. [[Paper](https://arxiv.org/abs/2109.01652)]
+9. **"Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, A Large-Scale Generative Language Model"** . *Shaden Smith* . arXiv. [[Paper](https://arxiv.org/abs/2201.11990)]
+10. **"Yuan 1.0: Large-Scale Pre-trained Language Model in Zero-Shot and Few-Shot Learning"** . *Shaohua Wu* . arXiv. [[Paper](https://arxiv.org/abs/2110.04725)]
+11. **"WebGPT: Browser-assisted question-answering with human feedback"** . *Reiichiro Nakano* . arXiv. [[Paper](https://arxiv.org/abs/2112.09332)]
+12. **"Scaling Language Models: Methods, Analysis & Insights from Training Gopher"** . *Jack W. Rae* . arXiv. [[Paper](http://arxiv.org/abs/2112.11446v2)]
+13. **"ERNIE 3.0 Titan: Exploring Larger-scale Knowledge Enhanced Pre-training for Language Understanding and Generation"** . *Shuohuan Wang*. arXiv. [[Paper](http://arxiv.org/abs/2112.11446v2)]
+14. **"GLaM: Efficient Scaling of Language Models with Mixture-of-Experts"** . *Nan Du* . ICML. [[Paper](https://arxiv.org/abs/2112.06905)]
+15. **"Training language models to follow instructions with human feedback"** . *Long Ouyang* . arXiv. [[Paper](http://arxiv.org/abs/2203.02155v1)]
+16. **"Competition-Level Code Generation with AlphaCode"** . *Yujia Li* . arXiv. [[Paper](http://arxiv.org/abs/2203.07814v1)]
+17. **"Training Compute-Optimal Large Language Models"** . *Jordan Hoffmann* . arXiv. [[Paper](https://arxiv.org/abs/2203.15556)]
+18. **"PaLM: Scaling Language Modeling with Pathways"** . *Aakanksha Chowdhery* . arXiv. [[Paper](https://arxiv.org/abs/2204.02311)]
+19. **"AlexaTM 20B: Few-Shot Learning Using a Large-Scale Multilingual Seq2Seq Model"** . *Saleh Soltan* . arXiv. [[Paper](https://arxiv.org/abs/2208.01448)]
+20. **"Improving alignment of dialogue agents via targeted human judgements"** . *Amelia Glaese* . arXiv. [[Paper](http://arxiv.org/abs/2209.14375v1)]
+21. **"Transcending Scaling Laws with 0.1\% Extra Compute"** . *Yi Tay* . arXiv. [[Paper](https://arxiv.org/abs/2210.11399)]
+22. **"Scaling Instruction-Finetuned Language Models"** . *Hyung Won Chung* . arXiv. [[Paper](https://arxiv.org/abs/2210.11416)] 
+23. **"GPT-4 Technical Report"** . *OpenAI* . arXiv. [[Paper](http://arxiv.org/abs/2303.08774v2)]
+24. **"PanGu-Σ: Towards Trillion Parameter Language Model with Sparse Heterogeneous Computing"** . *X*iaozhe Ren . arXiv. [[Paper](https://arxiv.org/abs/2303.10845)]
+
+
 
 
 
