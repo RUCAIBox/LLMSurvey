@@ -3,7 +3,7 @@
 
 > A collection of papers and resources related to Large Language Models. 
 >
-> The arrangement of papers refers to our survey [**"A Survey of Large Language Models"**]().
+> The organization of papers refers to our survey [**"A Survey of Large Language Models"**]().
 >
 > If you find our survey useful for your research, please cite the following paper:
 
@@ -405,14 +405,14 @@
 
 ### The Team
 
-Here is the list of our contributors in each section.
+Here is the list of our student contributors in each section.
 
-| Section                       | Contributors                                               |
-| ----------------------------- | ---------------------------------------------------------- |
-| The whole paper               | Wayen Xin Zhao, Kun Zhou, Junyi Li                         |
-| Overview && Resources of LLMs | Yingqian Min (Leader), Chen Yang                           |
-| Pretraining                   | Yupeng Hou (Leader), Junjie Zhang, Zican Dong, Yushuo Chen |
-| Adaption Tuning               | Tianyi Tang (Leader), Jinhao Jiang, Peiyu Wang             |
-| Utilization                   | Xiaolei Wang (Leader), Yifan Du, Xinyu Tang                |
-| Capacity Evaluation           | Beichen Zhang (Leader), Zhipeng Chen, Yinfan Li            |
+| Section                       | Student Contributors                                     |
+| ----------------------------- | -------------------------------------------------------- |
+| The whole paper               | Kun Zhou, Junyi Li                                       |
+| Overview && Resources of LLMs | Yingqian Min (Lead), Chen Yang                           |
+| Pretraining                   | Yupeng Hou (Lead), Junjie Zhang, Zican Dong, Yushuo Chen |
+| Adaptaion Tuning              | Tianyi Tang (Lead), Jinhao Jiang, Peiyu Wang             |
+| Utilization                   | Xiaolei Wang (Lead), Yifan Du, Xinyu Tang                |
+| Capacity Evaluation           | Beichen Zhang (Lead), Zhipeng Chen, Yifan Li             |
 
