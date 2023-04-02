@@ -29,7 +29,10 @@
   - [Training Algorithms](#training-algorithms)
   - [Pre-training on Code](#pre-training-on-code)
 
-- [Adaptation Tuning of LLMs](#adaptation-tuning-of-llms)
+- [Adaptation Tuning](#adaptation-tuning)
+  - [Instruction TUning](#instruction-tuning)
+  - [Alignment Tuning](#alignmnet-tuning)
+
 - [Utilization](#utilization)
 - [Capacity Evaluation](#capacity-evaluation)
 
