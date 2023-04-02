@@ -34,7 +34,7 @@
 
 - [Adaptation Tuning](#adaptation-tuning)
   - [Instruction Tuning](#instruction-tuning)
-  - [Alignment Tuning](#alignmnet-tuning)
+  - [Alignment Tuning](#alignment-tuning)
 
 - [Utilization](#utilization)
 - [Capacity Evaluation](#capacity-evaluation)
