@@ -38,6 +38,7 @@
 
 - [Utilization](#utilization)
 - [Capacity Evaluation](#capacity-evaluation)
+- [Contributions](#contributions)
 
 ## Resources of LLMs
 
@@ -376,3 +377,17 @@
 79. **"Evaluating GPT-3.5 and GPT-4 Models on Brazilian University Admission Exams"**. *Desnes Nunes et al.* arXiv 2023. [[Paper](https://arxiv.org/abs/2303.17003v1)]
 80. **"Humans in Humans Out: On GPT Converging Toward Common Sense in both Success and Failure"**. *Philipp Koralus et al.* arXiv 2023. [[Paper](https://arxiv.org/abs/2303.17276v1)]
 81. **"Yes but.. Can ChatGPT Identify Entities in Historical Documents?"**. *Carlos-Emiliano González-Gallardo et al.* arXiv 2023. [[Paper](https://arxiv.org/abs/2303.17322v1)]
+
+### The Team
+
+Here is the list of our contributors in each section. 
+
+| Section                       | Contributors                                               |
+| ----------------------------- | ---------------------------------------------------------- |
+| The whole paper               | Wayen Xin Zhao, Kun Zhou, Junyi Li                         |
+| Overview && Resources of LLMs | Yingqian Min (Leader), Chen Yang                           |
+| Pretraining                   | Yupeng Hou (Leader), Junjie Zhang, Zican Dong, Yushuo Chen |
+| Adaption Tuning               | Tianyi Tang (Leader), Jinhao Jiang, Peiyu Wang             |
+| Utilization                   | Xiaolei Wang (Leader), Yifan Du, Xinyu Tang                |
+| Capability Evaluation         | Beichen Zhang (Leader), Zhipeng Chen, Yinfan Li            |
+
