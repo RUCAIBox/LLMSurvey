@@ -38,7 +38,7 @@
 
 - [Utilization](#utilization)
 - [Capacity Evaluation](#capacity-evaluation)
-- [Contributions](#contributions)
+- [The Team](#the-team)
 
 ## Resources of LLMs
 
@@ -389,5 +389,5 @@ Here is the list of our contributors in each section.
 | Pretraining                   | Yupeng Hou (Leader), Junjie Zhang, Zican Dong, Yushuo Chen |
 | Adaption Tuning               | Tianyi Tang (Leader), Jinhao Jiang, Peiyu Wang             |
 | Utilization                   | Xiaolei Wang (Leader), Yifan Du, Xinyu Tang                |
-| Capability Evaluation         | Beichen Zhang (Leader), Zhipeng Chen, Yinfan Li            |
+| Capacity Evaluation           | Beichen Zhang (Leader), Zhipeng Chen, Yinfan Li            |
 
