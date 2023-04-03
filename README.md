@@ -5,6 +5,8 @@
 >
 > The organization of papers refers to our survey [**"A Survey of Large Language Models"**](https://arxiv.org/abs/2303.18223).
 >
+> Please let us know if you find out a mistake or have any suggestions by e-mail: batmanfly@gmail.com
+>
 > If you find our survey useful for your research, please cite the following paper:
 
 ```
