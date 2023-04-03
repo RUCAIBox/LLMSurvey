@@ -10,9 +10,10 @@
 ```
 @article{LLMSurvey,
     title={A Survey of Large Language Models},
-    author={Wayne Xin Zhao},
+    author={Zhao, Wayne Xin and Zhou, Kun and Li, Junyi and Tang, Tianyi and Wang, Xiaolei and Hou, Yupeng and Min, Yingqian and Zhang, Beichen and Zhang, Junjie and Dong, Zican and Du, Yifan and Yang, Chen and Chen, Yushuo and Chen, Zhipeng and Jiang, Jinhao and Ren, Ruiyang and Li, Yifan and Tang, Xinyu and Liu, Zikang and Liu, Peiyu and Nie, Jian-Yun and Wen, Ji-Rong},
     year={2023},
-    journal={coRR}
+    journal={arXiv preprint arXiv:2303.18223},
+    url={http://arxiv.org/abs/2303.18223}
 }
 ```
 
@@ -407,12 +408,12 @@
 
 Here is the list of our student contributors in each section.
 
-| Section                       | Student Contributors                                     |
-| ----------------------------- | -------------------------------------------------------- |
-| The whole paper               | Kun Zhou, Junyi Li                                       |
-| Overview && Resources of LLMs | Yingqian Min (Lead), Chen Yang                           |
-| Pretraining                   | Yupeng Hou (Lead), Junjie Zhang, Zican Dong, Yushuo Chen |
-| Adaptaion Tuning              | Tianyi Tang (Lead), Jinhao Jiang, Peiyu Wang             |
-| Utilization                   | Xiaolei Wang (Lead), Yifan Du, Xinyu Tang                |
-| Capacity Evaluation           | Beichen Zhang (Lead), Zhipeng Chen, Yifan Li             |
+| Section                       | Student Contributors                                                 |
+| ----------------------------- | -------------------------------------------------------------------- |
+| The whole paper               | Kun Zhou, Junyi Li                                                   |
+| Overview && Resources of LLMs | Yingqian Min (Lead), Chen Yang                                       |
+| Pretraining                   | Yupeng Hou (Lead), Junjie Zhang, Zican Dong, Yushuo Chen             |
+| Adaptaion Tuning              | Tianyi Tang (Lead), Jinhao Jiang, Ruiyang Ren, Zikang Liu, Peiyu Liu |
+| Utilization                   | Xiaolei Wang (Lead), Yifan Du, Xinyu Tang                            |
+| Capacity Evaluation           | Beichen Zhang (Lead), Zhipeng Chen, Yifan Li                         |
 
