@@ -3,7 +3,7 @@
 
 > A collection of papers and resources related to Large Language Models. 
 >
-> The organization of papers refers to our survey [**"A Survey of Large Language Models"**]().
+> The organization of papers refers to our survey [**"A Survey of Large Language Models"**](https://arxiv.org/abs/2303.18223).
 >
 > If you find our survey useful for your research, please cite the following paper:
 
