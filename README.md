@@ -19,7 +19,7 @@
 }
 ```
 
-![LLMs_timeline](/Users/kunkun/LLMSurvey/assests/LLMs-0408-fix.png)
+![LLMs_timeline](assests/LLMs-0408-fix.png)
 
 ## Table of Contents
 
