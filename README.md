@@ -44,7 +44,8 @@
 - [Utilization](#utilization)
 - [Capacity Evaluation](#capacity-evaluation)
 - [The Team](#the-team)
-- [Acknowledgements](#acknowledgements)
+- [Acknowledgments](#acknowledgments)
+- [Updata Log](#update-log)
 
 ## Timeline of LLMs
 
