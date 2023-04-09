@@ -52,23 +52,13 @@
 
 ## List of LLMs
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-baqh{text-align:center;vertical-align:top}
-.tg .tg-nrix{text-align:center;vertical-align:middle}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
     <th class="tg-nrix" align="center" rowspan="2">Category</th>
     <th class="tg-baqh" align="center" rowspan="2">model</th>
     <th class="tg-0lax" align="center" rowspan="2">Release Time</th>
-    <th class="tg-baqh" align="center" rowspan="2">Size</th>
+    <th class="tg-baqh" align="center" rowspan="2">Size(B)</th>
     <th class="tg-0lax" align="center" rowspan="2">Link</th>
   </tr>
   <tr>
