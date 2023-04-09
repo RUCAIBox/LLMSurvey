@@ -19,17 +19,18 @@
 }
 ```
 
-![LLMs_timeline](assests/LLMs-0408-final.png)
-
 ## Table of Contents
 
+- [Timeline of LLMs](#Timeline-of-LLMs)
+- [List of LLMs](#List-of-LLMs)
+
 - [Resources of LLMs](#resources-of-llms)
-  - [Open-source Models](#Open-source-Models)
+  - [Publicly Available Models](#publicly-available-Models)
   - [Closed-source Models](#closed-source-models)
   - [Commonly Used Corpora](#commonly-used-corpora)
   - [Library Resources](#library-resources)
   - [Deep Learning Frameworks](#deep-learning-frameworks)
-  
+
 - [Pre-training](#pre-training)
   - [Data Collection](#data-collection)
   - [Architecture](#architecture)
@@ -43,10 +44,327 @@
 - [Utilization](#utilization)
 - [Capacity Evaluation](#capacity-evaluation)
 - [The Team](#the-team)
+- [Acknowledgements](#acknowledgements)
+
+## Timeline of LLMs
+
+![LLMs_timeline](assests/LLMs-0408-final.png)
+
+## List of LLMs
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-nrix{text-align:center;vertical-align:middle}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-nrix" align="center" rowspan="2">Category</th>
+    <th class="tg-baqh" align="center" rowspan="2">model</th>
+    <th class="tg-0lax" align="center" rowspan="2">Release Time</th>
+    <th class="tg-baqh" align="center" rowspan="2">Size</th>
+    <th class="tg-0lax" align="center" rowspan="2">Link</th>
+  </tr>
+  <tr>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-nrix" align="center" rowspan="20">Publicly <br>Accessbile</td>
+    <td class="tg-baqh" align="center">T5</td>
+    <td class="tg-0lax" align="center">2019/10</td>
+    <td class="tg-baqh" align="center">11</td>
+    <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/1910.10683">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">mT5</td>
+    <td class="tg-0lax" align="center">2021/03</td>
+    <td class="tg-baqh" align="center">13</td>
+    <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2010.11934">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">PanGu-α</td>
+    <td class="tg-0lax" align="center">2021/05</td>
+    <td class="tg-baqh" align="center">13</td>
+    <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2104.12369">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">CPM-2</td>
+    <td class="tg-0lax" align="center">2021/05</td>
+    <td class="tg-baqh" align="center">198</td>
+    <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2104.12369">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">T0</td>
+    <td class="tg-0lax" align="center">2021/10</td>
+    <td class="tg-baqh" align="center">11</td>
+    <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2110.08207">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">GPT-NeoX-20B</td>
+    <td class="tg-0lax" align="center">2022/02</td>
+    <td class="tg-baqh" align="center">20</td>
+    <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2204.06745">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">CodeGen</td>
+    <td class="tg-0lax" align="center">2022/03</td>
+    <td class="tg-baqh" align="center">16</td>
+    <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2203.13474">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">Tk-Instruct</td>
+    <td class="tg-0lax" align="center">2022/04</td>
+    <td class="tg-baqh" align="center" align="center">11</td>
+    <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2204.07705">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">UL2</td>
+    <td class="tg-0lax" align="center">2022/02</td>
+    <td class="tg-baqh" align="center">20</td>
+    <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2205.05131">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">OPT</td>
+    <td class="tg-0lax" align="center">2022/05</td>
+    <td class="tg-baqh" align="center">175</td>
+    <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2205.01068">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">NLLB</td>
+    <td class="tg-0lax" align="center">2022/07</td>
+    <td class="tg-baqh" align="center">55</td>
+    <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2207.04672">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">BLOOM</td>
+    <td class="tg-0lax" align="center">2022/07</td>
+    <td class="tg-baqh" align="center">176</td>
+    <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2211.05100">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">GLM</td>
+    <td class="tg-0lax" align="center">2022/08</td>
+    <td class="tg-baqh" align="center">130</td>
+    <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2210.02414">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">Flan-T5</td>
+    <td class="tg-0lax" align="center">2022/10</td>
+    <td class="tg-baqh" align="center">11</td>
+    <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2210.11416">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">mT0</td>
+    <td class="tg-0lax" align="center">2022/11</td>
+    <td class="tg-baqh" align="center">13</td>
+    <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2211.01786">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">Galatica</td>
+    <td class="tg-0lax" align="center" align="center" align="center">2022/11</td>
+    <td class="tg-baqh" align="center" align="center">120</td>
+    <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2211.09085">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">BLOOMZ</td>
+    <td class="tg-0lax" align="center">2022/11</td>
+    <td class="tg-baqh" align="center">176</td>
+    <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2211.01786">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">OPT-IML</td>
+    <td class="tg-0lax" align="center">2022/12</td>
+    <td class="tg-baqh" align="center">175</td>
+    <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2212.12017">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">Pythia</td>
+    <td class="tg-0lax" align="center">2023/01</td>
+    <td class="tg-baqh" align="center">12</td>
+    <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2304.01373">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">LLaMA</td>
+    <td class="tg-0lax" align="center">2023/02</td>
+    <td class="tg-baqh" align="center">65</td>
+    <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2302.13971v1">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-nrix" align="center" rowspan="27">Closed<br>Source</td>
+    <td class="tg-baqh" align="center">GShard</td>
+    <td class="tg-0lax" align="center">2020/01</td>
+    <td class="tg-baqh" align="center" align="center">600</td>
+    <td class="tg-0lax" align="center"><a href="http://arxiv.org/abs/2006.16668v1">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">GPT-3</td>
+    <td class="tg-0lax" align="center">2020/05</td>
+    <td class="tg-baqh" align="center">175</td>
+    <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2005.14165">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">LaMDA</td>
+    <td class="tg-0lax" align="center">2021/05</td>
+    <td class="tg-baqh" align="center">137</td>
+    <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2201.08239">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">HyperCLOVA</td>
+    <td class="tg-0lax" align="center">2021/06</td>
+    <td class="tg-baqh" align="center">82</td>
+    <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2109.04650">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">Codex</td>
+    <td class="tg-0lax" align="center">2021/07</td>
+    <td class="tg-baqh" align="center">12</td>
+    <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2107.03374">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">ERNIE 3.0</td>
+    <td class="tg-0lax" align="center" align="center">2021/07</td>
+    <td class="tg-baqh" align="center">10</td>
+    <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2107.02137">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">Jurassic-1</td>
+    <td class="tg-0lax" align="center">2021/08</td>
+    <td class="tg-baqh" align="center">178</td>
+    <td class="tg-0lax" align="center"><a href="https://assets.website-files.com/60fd4503684b466578c0d307/61138924626a6981ee09caf6_jurassic_tech_paper.pdf">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center" align="center">FLAN</td>
+    <td class="tg-0lax" align="center">2021/10</td>
+    <td class="tg-baqh" align="center">137</td>
+    <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2109.01652">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">MT-NLG</td>
+    <td class="tg-0lax" align="center">2021/10</td>
+    <td class="tg-baqh" align="center">530</td>
+    <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2201.11990">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">Yuan 1.0</td>
+    <td class="tg-0lax" align="center">2021/10</td>
+    <td class="tg-baqh" align="center">245</td>
+    <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2110.04725">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">Anthropic</td>
+    <td class="tg-0lax" align="center">2021/12</td>
+    <td class="tg-baqh" align="center">52</td>
+    <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2112.00861">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">WebGPT</td>
+    <td class="tg-0lax" align="center">2021/12</td>
+    <td class="tg-baqh" align="center">175</td>
+    <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2112.09332">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">Gopher</td>
+    <td class="tg-0lax" align="center">2021/12</td>
+    <td class="tg-baqh" align="center">280</td>
+    <td class="tg-0lax" align="center"><a href="http://arxiv.org/abs/2112.11446v2">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">ERNIE 3.0 Titan</td>
+    <td class="tg-0lax" align="center">2021/12</td>
+    <td class="tg-baqh" align="center">260</td>
+    <td class="tg-0lax" align="center"><a href="http://arxiv.org/abs/2112.11446v2">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">GLaM</td>
+    <td class="tg-0lax" align="center">2021/12</td>
+    <td class="tg-baqh" align="center">1200</td>
+    <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2112.06905">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">InstructGPT</td>
+    <td class="tg-0lax" align="center">2022/01</td>
+    <td class="tg-baqh" align="center">175</td>
+    <td class="tg-0lax" align="center"><a href="http://arxiv.org/abs/2203.02155v1">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">AlphaCode</td>
+    <td class="tg-0lax" align="center">2022/02</td>
+    <td class="tg-baqh" align="center">41</td>
+    <td class="tg-0lax" align="center"><a href="http://arxiv.org/abs/2203.07814v1">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">Chinchilla</td>
+    <td class="tg-0lax" align="center">2022/03</td>
+    <td class="tg-baqh" align="center">70</td>
+    <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2203.15556">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">PaLM</td>
+    <td class="tg-0lax" align="center">2022/04</td>
+    <td class="tg-baqh" align="center">540</td>
+    <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2204.02311">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">AlexaTM</td>
+    <td class="tg-0lax" align="center">2022/08</td>
+    <td class="tg-baqh" align="center">20</td>
+    <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2208.01448">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">Sparrow</td>
+    <td class="tg-0lax" align="center">2022/09</td>
+    <td class="tg-baqh" align="center">70</td>
+    <td class="tg-0lax" align="center"><a href="http://arxiv.org/abs/2209.14375v1">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">WeLM</td>
+    <td class="tg-0lax" align="center">2022/09</td>
+    <td class="tg-baqh" align="center">10</td>
+    <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2209.10372">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">U-PaLM</td>
+    <td class="tg-0lax" align="center">2022/10</td>
+    <td class="tg-baqh" align="center">540</td>
+    <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2210.11399">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">Flan-PaLM</td>
+    <td class="tg-0lax" align="center">2022/10</td>
+    <td class="tg-baqh" align="center" align="center">540</td>
+    <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2210.11416">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">Flan-U-PaLM</td>
+    <td class="tg-0lax" align="center">2022/10</td>
+    <td class="tg-baqh" align="center">540</td>
+    <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2210.11416">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">GPT-4</td>
+    <td class="tg-0lax" align="center">2023/3</td>
+    <td class="tg-baqh" align="center">-</td>
+    <td class="tg-0lax" align="center"><a href="http://arxiv.org/abs/2303.08774v2">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">PanGU-Σ</td>
+    <td class="tg-0lax" align="center">2023/3</td>
+    <td class="tg-baqh" align="center">1085</td>
+    <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2303.10845">Paper</a></td>
+  </tr>
+</tbody>
+</table>
 
 ## Resources of LLMs
 
-### Open-source Models
+### Publicly Available Models
 
 1. <u>T5</u>: **"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer"**. *Colin Raffel et al.* JMLR 2019. [[Paper](https://arxiv.org/abs/1910.10683)] [[Checkpoint](https://huggingface.co/t5-base)]
 2. <u>mT5</u>: **"mT5: A massively multilingual pre-trained text-to-text transformer"**. *Linting Xue* et al. NAACL 2021. [[Paper](https://arxiv.org/abs/2010.11934)] [[Checkpoint](https://huggingface.co/google/mt5-xxl/tree/main)]
@@ -58,12 +376,14 @@
 8. <u>Tk-Instruct</u>: **"Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+ NLP Tasks"**. *Yizhong Wang et al.* EMNLP 2022. [[Paper](https://arxiv.org/abs/2204.07705)] [[Checkpoint](https://huggingface.co/allenai/tk-instruct-11b-def-pos)]
 9. <u>UL2</u>: **"UL2: Unifying Language Learning Paradigms"**. *Yi Tay et al.* arXiv 2022. [[Paper](https://arxiv.org/abs/2205.05131)] [[Checkpoint](https://github.com/google-research/google-research/tree/master/ul2)]
 10. <u>OPT</u>: **"OPT: Open Pre-trained Transformer Language Models"**. *Susan Zhang et al.* arXiv 2022. [[Paper](https://arxiv.org/abs/2205.01068)] [[Checkpoint](https://github.com/facebookresearch/metaseq/tree/main/projects/OPT)]
-11. <u>BLOOM</u>: **"BLOOM: A 176B-Parameter Open-Access Multilingual Language Model"**. *BigScience Workshop*. arXiv 2022. [[Paper](https://arxiv.org/abs/2211.05100)] [[Checkpoint](https://huggingface.co/bigscience/bloom)]
-12. <u>GLM</u>: **"GLM-130B: An Open Bilingual Pre-trained Model"**. *Aohan Zeng et al.* arXiv 2022. [[Paper](https://arxiv.org/abs/2210.02414)] [[Checkpoint](https://github.com/THUDM/GLM-130B)]
+11. <u>NLLB</u>: **"No Language Left Behind: Scaling Human-Centered Machine Translation"**. *NLLB Team.* arXiv 2022. [[Paper](https://arxiv.org/abs/2207.04672)] [[Checkpoint](https://github.com/facebookresearch/fairseq/tree/nllb)]
+12. <u>BLOOM</u>: **"BLOOM: A 176B-Parameter Open-Access Multilingual Language Model"**. *BigScience Workshop*. arXiv 2022. [[Paper](https://arxiv.org/abs/2211.05100)] [[Checkpoint](https://huggingface.co/bigscience/bloom)]
+13. <u>GLM</u>: **"GLM-130B: An Open Bilingual Pre-trained Model"**. *Aohan Zeng et al.* arXiv 2022. [[Paper](https://arxiv.org/abs/2210.02414)] [[Checkpoint](https://github.com/THUDM/GLM-130B)]
 13. <u>Flan-T5</u>: **"Scaling Instruction-Finetuned Language Models"**. *Hyung Won Chung et al.* arXiv 2022. [[Paper](https://arxiv.org/abs/2210.11416)] [[Checkpoint](https://github.com/google-research/t5x/blob/main/docs/models.md#flan-t5-checkpoints)]
 14. <u>mT0 && BLOOMZ</u>: **"Crosslingual Generalization through Multitask Finetuning"**. *Niklas Muennighoff et al.* arXiv 2022. [[Paper](https://arxiv.org/abs/2211.01786)] [[Checkpoint](https://github.com/bigscience-workshop/xmtf)]
 15. <u>Galactica</u>: **"Galactica: A Large Language Model for Science"**. *Ross Taylor et al.* arXiv 2022. [[Paper](https://arxiv.org/abs/2211.09085)] [[Checkpoint](https://huggingface.co/facebook/galactica-120b)]
 16. <u>OPT-IML</u>: **"OPT-IML: Scaling Language Model Instruction Meta Learning through the Lens of Generalization"**. *Srinivasan et al.* . arXiv 2022. [[Paper](https://arxiv.org/abs/2212.12017)] [[Checkpoint](https://huggingface.co/facebook/opt-iml-30b)]
+17. <u>Pythia</u>: **"Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling"**. *Stella Biderman et al.* . arXiv 2023. [[Paper](https://arxiv.org/abs/2304.01373)] [[Checkpoint](https://github.com/EleutherAI/pythia)]
 17. <u>LLaMA</u>: **"LLaMA: Open and Efficient Foundation Language Models"**. *Hugo Touvron et al.* arXiv 2023. [[Paper](https://arxiv.org/abs/2302.13971v1)] [[Checkpoint](https://github.com/facebookresearch/llama)]
 
 ### Closed-source Models
@@ -78,20 +398,22 @@
 8. <u>FLAN</u>: **"Finetuned Language Models Are Zero-Shot Learners"**. *Jason Wei et al.* ICLR 2021. [[Paper](https://arxiv.org/abs/2109.01652)]
 9. <u>MT-NLG</u>: **"Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, A Large-Scale Generative Language Model"**. *Shaden Smith et al.* arXiv 2021. [[Paper](https://arxiv.org/abs/2201.11990)]
 10. <u>Yuan 1.0</u>: **"Yuan 1.0: Large-Scale Pre-trained Language Model in Zero-Shot and Few-Shot Learning"**. *Shaohua Wu et al.* arXiv 2021. [[Paper](https://arxiv.org/abs/2110.04725)]
-11. <u>WebGPT</u>: **"WebGPT: Browser-assisted question-answering with human feedback"** . *Reiichiro Nakano et al.* arXiv 2021. [[Paper](https://arxiv.org/abs/2112.09332)]
-12. <u>Gopher</u>: **"Scaling Language Models: Methods, Analysis & Insights from Training Gopher"**.  *Jack W. Rae et al.* arXiv 2021. [[Paper](http://arxiv.org/abs/2112.11446v2)]
-13. <u>ERNIE 3.0 Titan</u>: **"ERNIE 3.0 Titan: Exploring Larger-scale Knowledge Enhanced Pre-training for Language Understanding and Generation"**.  *Shuohuan Wang et al. *arXiv 2021. [[Paper](http://arxiv.org/abs/2112.11446v2)]
-14. <u>GLaM</u>: **"GLaM: Efficient Scaling of Language Models with Mixture-of-Experts"**. *Nan Du et al.* ICML 2022. [[Paper](https://arxiv.org/abs/2112.06905)]
-15. <u>InstructGPT</u>: **"Training language models to follow instructions with human feedback"**. *Long Ouyang et al.* arXiv 2022. [[Paper](http://arxiv.org/abs/2203.02155v1)]
-16. <u>AlphaCode</u>: **"Competition-Level Code Generation with AlphaCode"**. *Yujia Li et al.* arXiv 2022. [[Paper](http://arxiv.org/abs/2203.07814v1)]
-17. <u>Chinchilla</u>: **"Training Compute-Optimal Large Language Models"**. *Jordan Hoffmann et al.* arXiv. [[Paper](https://arxiv.org/abs/2203.15556)]
-18. <u>PaLM</u>: **"PaLM: Scaling Language Modeling with Pathways"**. *Aakanksha Chowdhery et al.* arXiv 2022. [[Paper](https://arxiv.org/abs/2204.02311)]
-19. <u>AlexaTM</u>: **"AlexaTM 20B: Few-Shot Learning Using a Large-Scale Multilingual Seq2Seq Model"**. *Saleh Soltan et al.* arXiv 2022. [[Paper](https://arxiv.org/abs/2208.01448)]
-20. <u>Sparrow</u>: **"Improving alignment of dialogue agents via targeted human judgements"**. *Amelia Glaese et al.* . arXiv 2022. [[Paper](http://arxiv.org/abs/2209.14375v1)]
-21. <u>U-PaLM</u>: **"Transcending Scaling Laws with 0.1% Extra Compute"**. *Yi Tay et al.* arXiv 2022. [[Paper](https://arxiv.org/abs/2210.11399)]
-22. <u>Flan-PaLM && Flan-U-PaLM</u>: **"Scaling Instruction-Finetuned Language Models"**. *Hyung Won Chung et al.* arXiv. [[Paper](https://arxiv.org/abs/2210.11416)] 
-23. <u>GPT-4</u>: **"GPT-4 Technical Report"**. *OpenAI*. arXiv 2023. [[Paper](http://arxiv.org/abs/2303.08774v2)]
-24. <u>PanGu-Σ</u>: **"PanGu-Σ: Towards Trillion Parameter Language Model with Sparse Heterogeneous Computing"**. *Xiaozhe Ren et al.* arXiv 2023. [[Paper](https://arxiv.org/abs/2303.10845)]
+11. <u>Anthropic</u>: **"A General Language Assistant as a Laboratory for Alignment"** . *Amanda Askell et al.* arXiv 2021. [[Paper](https://arxiv.org/abs/2112.00861)]
+12. <u>WebGPT</u>: **"WebGPT: Browser-assisted question-answering with human feedback"** . *Reiichiro Nakano et al.* arXiv 2021. [[Paper](https://arxiv.org/abs/2112.09332)]
+13. <u>Gopher</u>: **"Scaling Language Models: Methods, Analysis & Insights from Training Gopher"**.  *Jack W. Rae et al.* arXiv 2021. [[Paper](http://arxiv.org/abs/2112.11446v2)]
+14. <u>ERNIE 3.0 Titan</u>: **"ERNIE 3.0 Titan: Exploring Larger-scale Knowledge Enhanced Pre-training for Language Understanding and Generation"**.  *Shuohuan Wang et al. *arXiv 2021. [[Paper](http://arxiv.org/abs/2112.11446v2)]
+15. <u>GLaM</u>: **"GLaM: Efficient Scaling of Language Models with Mixture-of-Experts"**. *Nan Du et al.* ICML 2022. [[Paper](https://arxiv.org/abs/2112.06905)]
+16. <u>InstructGPT</u>: **"Training language models to follow instructions with human feedback"**. *Long Ouyang et al.* arXiv 2022. [[Paper](http://arxiv.org/abs/2203.02155v1)]
+17. <u>AlphaCode</u>: **"Competition-Level Code Generation with AlphaCode"**. *Yujia Li et al.* arXiv 2022. [[Paper](http://arxiv.org/abs/2203.07814v1)]
+18. <u>Chinchilla</u>: **"Training Compute-Optimal Large Language Models"**. *Jordan Hoffmann et al.* arXiv. [[Paper](https://arxiv.org/abs/2203.15556)]
+19. <u>PaLM</u>: **"PaLM: Scaling Language Modeling with Pathways"**. *Aakanksha Chowdhery et al.* arXiv 2022. [[Paper](https://arxiv.org/abs/2204.02311)]
+20. <u>AlexaTM</u>: **"AlexaTM 20B: Few-Shot Learning Using a Large-Scale Multilingual Seq2Seq Model"**. *Saleh Soltan et al.* arXiv 2022. [[Paper](https://arxiv.org/abs/2208.01448)]
+21. <u>Sparrow</u>: **"Improving alignment of dialogue agents via targeted human judgements"**. *Amelia Glaese et al.* . arXiv 2022. [[Paper](http://arxiv.org/abs/2209.14375v1)]
+22. <u>WeLM</u>: **"WeLM: A Well-Read Pre-trained Language Model for Chinese"**. *Hui Su et al.* . arXiv 2022. [[Paper](https://arxiv.org/abs/2209.10372)]
+23. <u>U-PaLM</u>: **"Transcending Scaling Laws with 0.1% Extra Compute"**. *Yi Tay et al.* arXiv 2022. [[Paper](https://arxiv.org/abs/2210.11399)]
+24. <u>Flan-PaLM && Flan-U-PaLM</u>: **"Scaling Instruction-Finetuned Language Models"**. *Hyung Won Chung et al.* arXiv. [[Paper](https://arxiv.org/abs/2210.11416)] 
+25. <u>GPT-4</u>: **"GPT-4 Technical Report"**. *OpenAI*. arXiv 2023. [[Paper](http://arxiv.org/abs/2303.08774v2)]
+26. <u>PanGu-Σ</u>: **"PanGu-Σ: Towards Trillion Parameter Language Model with Sparse Heterogeneous Computing"**. *Xiaozhe Ren et al.* arXiv 2023. [[Paper](https://arxiv.org/abs/2303.10845)]
 
 ### Commonly Used Corpora
 
@@ -419,4 +741,15 @@ Here is the list of our student contributors in each section.
 | Adaptaion Tuning              | Tianyi Tang (Lead), Jinhao Jiang, Ruiyang Ren, Zikang Liu, Peiyu Liu |
 | Utilization                   | Xiaolei Wang (Lead), Yifan Du, Xinyu Tang                            |
 | Capacity Evaluation           | Beichen Zhang (Lead), Zhipeng Chen, Yifan Li                         |
+
+## Acknowledgments
+
+The authors would like to thank Yankai Lin and Yutao Zhu for proofreading this paper. Since the first release of this paper, we have received a number of valuable comments from the readers. We sincerely thank the readers who have written to us with constructive suggestions and comments: Tyler Suard, Damai Dai, Liang Ding, Stella Biderman, Kevin Gray, and Jay Alammar.
+
+## Update Log
+
+| Version | Time       | Update Content                   |
+| ------- | ---------- | -------------------------------- |
+| V1      | 2023/03/31 | The first version of this survey |
+| V2      | 2023/04/09 | Typos fixes and new models       |
 
