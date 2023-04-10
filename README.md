@@ -67,7 +67,7 @@
 </thead>
 <tbody>
   <tr>
-    <td class="tg-nrix" align="center" rowspan="20">Publicly <br>Accessbile</td>
+    <td class="tg-nrix" align="center" rowspan="21">Publicly <br>Accessbile</td>
     <td class="tg-baqh" align="center">T5</td>
     <td class="tg-0lax" align="center">2019/10</td>
     <td class="tg-baqh" align="center">11</td>
@@ -188,7 +188,13 @@
     <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2302.13971v1">Paper</a></td>
   </tr>
   <tr>
-    <td class="tg-nrix" align="center" rowspan="27">Closed<br>Source</td>
+    <td class="tg-baqh" align="center">Vicuna</td>
+    <td class="tg-0lax" align="center">2023/03</td>
+    <td class="tg-baqh" align="center">13</td>
+    <td class="tg-0lax" align="center"><a href="https://vicuna.lmsys.org/">Homepage</a></td>
+  </tr>
+  <tr>
+    <td class="tg-nrix" align="center" rowspan="30">Closed<br>Source</td>
     <td class="tg-baqh" align="center">GShard</td>
     <td class="tg-0lax" align="center">2020/01</td>
     <td class="tg-baqh" align="center" align="center">600</td>
@@ -301,12 +307,29 @@
     <td class="tg-0lax" align="center">2022/04</td>
     <td class="tg-baqh" align="center">540</td>
     <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2204.02311">Paper</a></td>
+    <tr>
+    <td class="tg-baqh" align="center">Cohere</td>
+    <td class="tg-0lax" align="center">2022/06</td>
+    <td class="tg-baqh" align="center">54</td>
+    <td class="tg-0lax" align="center"><a href="https://cohere.ai/">Homepage</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">YaLM</td>
+    <td class="tg-0lax" align="center">2022/06</td>
+    <td class="tg-baqh" align="center">100</td>
+    <td class="tg-0lax" align="center"><a href="https://github.com/yandex/YaLM-100B">Github</a></td>
   </tr>
   <tr>
     <td class="tg-baqh" align="center">AlexaTM</td>
     <td class="tg-0lax" align="center">2022/08</td>
     <td class="tg-baqh" align="center">20</td>
     <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2208.01448">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">Luminous</td>
+    <td class="tg-0lax" align="center">2022/09</td>
+    <td class="tg-baqh" align="center">70</td>
+    <td class="tg-0lax" align="center"><a href="https://docs.aleph-alpha.com/docs/introduction/luminous/">Docs</a></td>
   </tr>
   <tr>
     <td class="tg-baqh" align="center">Sparrow</td>
@@ -352,6 +375,7 @@
   </tr>
 </tbody>
 </table>
+
 
 ## Resources of LLMs
 
