@@ -191,7 +191,7 @@
     <td class="tg-baqh" align="center">Vicuna</td>
     <td class="tg-0lax" align="center">2023/03</td>
     <td class="tg-baqh" align="center">13</td>
-    <td class="tg-0lax" align="center"><a href="https://vicuna.lmsys.org/">Homepage</a></td>
+    <td class="tg-0lax" align="center"><a href="https://vicuna.lmsys.org/">Blog</a></td>
   </tr>
   <tr>
     <td class="tg-nrix" align="center" rowspan="30">Closed<br>Source</td>
