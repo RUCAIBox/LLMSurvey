@@ -7,6 +7,8 @@
 >
 > Please let us know if you find out a mistake or have any suggestions by e-mail: batmanfly@gmail.com
 >
+> (we suggest ccing another email francis_kun_zhou@163.com meanwhile, in case of any unsuccessful delivery issue.)
+>
 > If you find our survey useful for your research, please cite the following paper:
 
 ```
