@@ -194,7 +194,7 @@
     <td class="tg-0lax" align="center"><a href="https://vicuna.lmsys.org/">Blog</a></td>
   </tr>
   <tr>
-    <td class="tg-nrix" align="center" rowspan="30">Closed<br>Source</td>
+    <td class="tg-nrix" align="center" rowspan="31">Closed<br>Source</td>
     <td class="tg-baqh" align="center">GShard</td>
     <td class="tg-0lax" align="center">2020/01</td>
     <td class="tg-baqh" align="center" align="center">600</td>
@@ -362,6 +362,12 @@
     <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2210.11416">Paper</a></td>
   </tr>
   <tr>
+    <td class="tg-baqh" align="center">Alpaca</td>
+    <td class="tg-0lax" align="center">2023/03</td>
+    <td class="tg-baqh" align="center">7</td>
+    <td class="tg-0lax" align="center"><a href="https://crfm.stanford.edu/2023/03/13/alpaca.html">Blog</a></td>
+  </tr>
+  <tr>
     <td class="tg-baqh" align="center">GPT-4</td>
     <td class="tg-0lax" align="center">2023/3</td>
     <td class="tg-baqh" align="center">-</td>
@@ -375,6 +381,7 @@
   </tr>
 </tbody>
 </table>
+
 
 
 ## Resources of LLMs
