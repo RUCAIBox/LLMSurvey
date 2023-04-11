@@ -67,7 +67,7 @@
 </thead>
 <tbody>
   <tr>
-    <td class="tg-nrix" align="center" rowspan="21">Publicly <br>Accessbile</td>
+    <td class="tg-nrix" align="center" rowspan="22">Publicly <br>Accessbile</td>
     <td class="tg-baqh" align="center">T5</td>
     <td class="tg-0lax" align="center">2019/10</td>
     <td class="tg-baqh" align="center">11</td>
@@ -192,6 +192,12 @@
     <td class="tg-0lax" align="center">2023/03</td>
     <td class="tg-baqh" align="center">13</td>
     <td class="tg-0lax" align="center"><a href="https://vicuna.lmsys.org/">Blog</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">Koala</td>
+    <td class="tg-0lax" align="center">2023/04</td>
+    <td class="tg-baqh" align="center">13</td>
+    <td class="tg-0lax" align="center"><a href="https://bair.berkeley.edu/blog/2023/04/03/koala/">Blog</a></td>
   </tr>
   <tr>
     <td class="tg-nrix" align="center" rowspan="31">Closed<br>Source</td>
