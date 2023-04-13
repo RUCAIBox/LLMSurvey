@@ -51,7 +51,7 @@
 
 ## Timeline of LLMs
 
-![LLMs_timeline](assests/LLMs-0411.png)
+![LLMs_timeline](assests/LLMs-0412.png)
 
 ## List of LLMs
 
@@ -782,6 +782,7 @@ The authors would like to thank Yankai Lin and Yutao Zhu for proofreading this p
 | Version | Time       | Update Content                                               |
 | ------- | ---------- | ------------------------------------------------------------ |
 | V1      | 2023/03/31 | The initial version.                                         |
-| V2      | 2023/04/09 | Add the affiliation information.<br/>Revise Figure 2 and Table 1 and clarify the <br/>corresponding selection criterion for LLMs.<br/>Improve the writing.<br/>Correct some minor errors. |
+| V2      | 2023/04/09 | Add the affiliation information.<br/>Revise Figure 1 and Table 1 and clarify the <br/>corresponding selection criterion for LLMs.<br/>Improve the writing.<br/>Correct some minor errors. |
 | V3      | 2023/04/11 | Correct the errors for library resources.                    |
+| V4      | 2023/04/12 | Revise Figure 1 and Table 1, and clarify the release date of LLMs |
 
