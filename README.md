@@ -53,7 +53,7 @@
 
 ## Timeline of LLMs
 
-![LLMs_timeline](assests/LLMs-0412.png)
+![LLMs_timeline](assets/LLMs-0412.png)
 
 ## List of LLMs
 
