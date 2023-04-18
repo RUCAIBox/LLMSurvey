@@ -53,7 +53,7 @@
 
 ## Timeline of LLMs
 
-![LLMs_timeline](assets/LLMs-0412.png)
+![LLMs_timeline](assets/LLMs-0418-final.png)
 
 ## List of LLMs
 
@@ -71,7 +71,7 @@
 </thead>
 <tbody>
   <tr>
-    <td class="tg-nrix" align="center" rowspan="22">Publicly <br>Accessbile</td>
+    <td class="tg-nrix" align="center" rowspan="25">Publicly <br>Accessbile</td>
     <td class="tg-baqh" align="center">T5</td>
     <td class="tg-0lax" align="center">2019/10</td>
     <td class="tg-baqh" align="center">11</td>
@@ -130,6 +130,12 @@
     <td class="tg-0lax" align="center">2022/05</td>
     <td class="tg-baqh" align="center">175</td>
     <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2205.01068">Paper</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">YaLM</td>
+    <td class="tg-0lax" align="center">2022/06</td>
+    <td class="tg-baqh" align="center">100</td>
+    <td class="tg-0lax" align="center"><a href="https://github.com/yandex/YaLM-100B">Github</a></td>
   </tr>
   <tr>
     <td class="tg-baqh" align="center">NLLB</td>
@@ -196,6 +202,18 @@
     <td class="tg-0lax" align="center">2023/03</td>
     <td class="tg-baqh" align="center">13</td>
     <td class="tg-0lax" align="center"><a href="https://vicuna.lmsys.org/">Blog</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">ChatGLM</td>
+    <td class="tg-0lax" align="center">2023/03</td>
+    <td class="tg-baqh" align="center">6</td>
+    <td class="tg-0lax" align="center"><a href="https://github.com/THUDM/ChatGLM-6B">Github</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">CodeGeeX</td>
+    <td class="tg-0lax" align="center">2023/03</td>
+    <td class="tg-baqh" align="center">13</td>
+    <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2303.17568">Paper</a></td>
   </tr>
   <tr>
     <td class="tg-baqh" align="center">Koala</td>
@@ -324,12 +342,6 @@
     <td class="tg-0lax" align="center"><a href="https://cohere.ai/">Homepage</a></td>
   </tr>
   <tr>
-    <td class="tg-baqh" align="center">YaLM</td>
-    <td class="tg-0lax" align="center">2022/06</td>
-    <td class="tg-baqh" align="center">100</td>
-    <td class="tg-0lax" align="center"><a href="https://github.com/yandex/YaLM-100B">Github</a></td>
-  </tr>
-  <tr>
     <td class="tg-baqh" align="center">AlexaTM</td>
     <td class="tg-0lax" align="center">2022/08</td>
     <td class="tg-baqh" align="center">20</td>
@@ -395,6 +407,7 @@
 
 
 
+
 ## Resources of LLMs
 
 ### Publicly Available Models
@@ -412,12 +425,13 @@
 11. <u>NLLB</u>: **"No Language Left Behind: Scaling Human-Centered Machine Translation"**. *NLLB Team.* arXiv 2022. [[Paper](https://arxiv.org/abs/2207.04672)] [[Checkpoint](https://github.com/facebookresearch/fairseq/tree/nllb)]
 12. <u>BLOOM</u>: **"BLOOM: A 176B-Parameter Open-Access Multilingual Language Model"**. *BigScience Workshop*. arXiv 2022. [[Paper](https://arxiv.org/abs/2211.05100)] [[Checkpoint](https://huggingface.co/bigscience/bloom)]
 13. <u>GLM</u>: **"GLM-130B: An Open Bilingual Pre-trained Model"**. *Aohan Zeng et al.* arXiv 2022. [[Paper](https://arxiv.org/abs/2210.02414)] [[Checkpoint](https://github.com/THUDM/GLM-130B)]
-13. <u>Flan-T5</u>: **"Scaling Instruction-Finetuned Language Models"**. *Hyung Won Chung et al.* arXiv 2022. [[Paper](https://arxiv.org/abs/2210.11416)] [[Checkpoint](https://github.com/google-research/t5x/blob/main/docs/models.md#flan-t5-checkpoints)]
-14. <u>mT0 && BLOOMZ</u>: **"Crosslingual Generalization through Multitask Finetuning"**. *Niklas Muennighoff et al.* arXiv 2022. [[Paper](https://arxiv.org/abs/2211.01786)] [[Checkpoint](https://github.com/bigscience-workshop/xmtf)]
-15. <u>Galactica</u>: **"Galactica: A Large Language Model for Science"**. *Ross Taylor et al.* arXiv 2022. [[Paper](https://arxiv.org/abs/2211.09085)] [[Checkpoint](https://huggingface.co/facebook/galactica-120b)]
-16. <u>OPT-IML</u>: **"OPT-IML: Scaling Language Model Instruction Meta Learning through the Lens of Generalization"**. *Srinivasan et al.* . arXiv 2022. [[Paper](https://arxiv.org/abs/2212.12017)] [[Checkpoint](https://huggingface.co/facebook/opt-iml-30b)]
-17. <u>Pythia</u>: **"Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling"**. *Stella Biderman et al.* . arXiv 2023. [[Paper](https://arxiv.org/abs/2304.01373)] [[Checkpoint](https://github.com/EleutherAI/pythia)]
-17. <u>LLaMA</u>: **"LLaMA: Open and Efficient Foundation Language Models"**. *Hugo Touvron et al.* arXiv 2023. [[Paper](https://arxiv.org/abs/2302.13971v1)] [[Checkpoint](https://github.com/facebookresearch/llama)]
+14. <u>Flan-T5</u>: **"Scaling Instruction-Finetuned Language Models"**. *Hyung Won Chung et al.* arXiv 2022. [[Paper](https://arxiv.org/abs/2210.11416)] [[Checkpoint](https://github.com/google-research/t5x/blob/main/docs/models.md#flan-t5-checkpoints)]
+15. <u>mT0 && BLOOMZ</u>: **"Crosslingual Generalization through Multitask Finetuning"**. *Niklas Muennighoff et al.* arXiv 2022. [[Paper](https://arxiv.org/abs/2211.01786)] [[Checkpoint](https://github.com/bigscience-workshop/xmtf)]
+16. <u>Galactica</u>: **"Galactica: A Large Language Model for Science"**. *Ross Taylor et al.* arXiv 2022. [[Paper](https://arxiv.org/abs/2211.09085)] [[Checkpoint](https://huggingface.co/facebook/galactica-120b)]
+17. <u>OPT-IML</u>: **"OPT-IML: Scaling Language Model Instruction Meta Learning through the Lens of Generalization"**. *Srinivasan et al.* . arXiv 2022. [[Paper](https://arxiv.org/abs/2212.12017)] [[Checkpoint](https://huggingface.co/facebook/opt-iml-30b)]
+18. <u>CodeGeeX</u>: **"CodeGeeX: A Pre-Trained Model for Code Generation with Multilingual Evaluations on HumanEval-X"**. *Qinkai Zheng et al.* . arXiv 2023. [[Paper](https://arxiv.org/abs/2303.17568)] [[Checkpoint](https://github.com/THUDM/CodeGeeX)]
+19. <u>Pythia</u>: **"Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling"**. *Stella Biderman et al.* . arXiv 2023. [[Paper](https://arxiv.org/abs/2304.01373)] [[Checkpoint](https://github.com/EleutherAI/pythia)]
+20. <u>LLaMA</u>: **"LLaMA: Open and Efficient Foundation Language Models"**. *Hugo Touvron et al.* arXiv 2023. [[Paper](https://arxiv.org/abs/2302.13971v1)] [[Checkpoint](https://github.com/facebookresearch/llama)]
 
 ### Closed-source Models
 
@@ -786,5 +800,7 @@ The authors would like to thank Yankai Lin and Yutao Zhu for proofreading this p
 | V1      | 2023/03/31 | The initial version.                                         |
 | V2      | 2023/04/09 | Add the affiliation information.<br/>Revise Figure 1 and Table 1 and clarify the <br/>corresponding selection criterion for LLMs.<br/>Improve the writing.<br/>Correct some minor errors. |
 | V3      | 2023/04/11 | Correct the errors for library resources.                    |
-| V4      | 2023/04/12 | Revise Figure 1 and Table 1, and clarify the release date of LLMs |
+| V4      | 2023/04/12 | Revise Figure 1 and Table 1 and clarify the release date of LLMs. |
+| V5      | 2023/04/16 | Add a new Section 2.2 about<br/>the technical evolution of GPT-series models. |
+| V6      | 2023/04/18 | Add some new models in<br/>Table 1 and Figure 1.             |
 
