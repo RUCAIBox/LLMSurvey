@@ -804,4 +804,5 @@ The authors would like to thank Yankai Lin and Yutao Zhu for proofreading this p
 | V4      | 2023/04/12 | Revise Figure 1 and Table 1 and clarify the release date of LLMs. |
 | V5      | 2023/04/16 | Add a new Section 2.2 about<br/>the technical evolution of GPT-series models. |
 | V6      | 2023/04/18 | Add some new models in<br/>Table 1 and Figure 1.             |
+| V7      | 2023/04/24 | Add the discussion about scaling laws.<br/>Add some explanations about the<br/>model sizes for emergent abilities (Section 2.1).<br/>Add an illustrative figure for the attention patterns <br/>for different architectures in Figure 4.<br/>Add the detailed formulas in Table 4. |
 
