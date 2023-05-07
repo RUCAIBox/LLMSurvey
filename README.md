@@ -53,7 +53,7 @@
 
 ## Timeline of LLMs
 
-![LLMs_timeline](assets/LLMs-0418.png)
+![LLMs_timeline](assets/LLMs-0507-final.png)
 
 ## List of LLMs
 
@@ -807,4 +807,6 @@ The authors would like to thank Yankai Lin and Yutao Zhu for proofreading  this 
 | V6      | 2023/04/24 | Add some new models in Table 1 and Figure 1.<br/>Add the discussion about scaling laws.<br/>Add some explanations about the<br/>model sizes for emergent abilities (Section 2.1).<br/>Add an illustrative figure for the attention patterns <br/>for different architectures in Figure 4.<br/>Add the detailed formulas in Table 4. |
 | V7      | 2023/04/25 | Revise some copy errors in figures and tables.               |
 | V8      | 2023/04/27 | Add efficient tuning in Section 5.3                          |
+| V9      | 2023/04/28 | Revise  Section 5.3                                          |
+| V10     | 2023/05/07 | Revise Table 1, Table 2, and some minor points.              |
 
