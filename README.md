@@ -818,16 +818,17 @@ The authors would like to thank Yankai Lin and Yutao Zhu for proofreading  this 
 
 ## Update Log
 
-| Version | Time       | Update Content                                               |
-| ------- | ---------- | ------------------------------------------------------------ |
-| V1      | 2023/03/31 | The initial version.                                         |
-| V2      | 2023/04/09 | Add the affiliation information.<br/>Revise Figure 1 and Table 1 and clarify the <br/>corresponding selection criterion for LLMs.<br/>Improve the writing.<br/>Correct some minor errors. |
-| V3      | 2023/04/11 | Correct the errors for library resources.                    |
-| V4      | 2023/04/12 | Revise Figure 1 and Table 1 and clarify the release date of LLMs. |
-| V5      | 2023/04/16 | Add a new Section 2.2 about<br/>the technical evolution of GPT-series models. |
-| V6      | 2023/04/24 | Add some new models in Table 1 and Figure 1.<br/>Add the discussion about scaling laws.<br/>Add some explanations about the<br/>model sizes for emergent abilities (Section 2.1).<br/>Add an illustrative figure for the attention patterns <br/>for different architectures in Figure 4.<br/>Add the detailed formulas in Table 4. |
-| V7      | 2023/04/25 | Revise some copy errors in figures and tables.               |
-| V8      | 2023/04/27 | Add efficient tuning in Section 5.3                          |
-| V9      | 2023/04/28 | Revise  Section 5.3                                          |
-| V10     | 2023/05/07 | Revise Table 1, Table 2, and some minor points.              |
+| Version                  | Time       | Update Content                                               |
+| ------------------------ | ---------- | ------------------------------------------------------------ |
+| V1                       | 2023/03/31 | The initial version.                                         |
+| V2                       | 2023/04/09 | Add the affiliation information.<br/>Revise Figure 1 and Table 1 and clarify the <br/>corresponding selection criterion for LLMs.<br/>Improve the writing.<br/>Correct some minor errors. |
+| V3                       | 2023/04/11 | Correct the errors for library resources.                    |
+| V4                       | 2023/04/12 | Revise Figure 1 and Table 1 and clarify the release date of LLMs. |
+| V5                       | 2023/04/16 | Add a new Section 2.2 about<br/>the technical evolution of GPT-series models. |
+| V6                       | 2023/04/24 | Add some new models in Table 1 and Figure 1.<br/>Add the discussion about scaling laws.<br/>Add some explanations about the<br/>model sizes for emergent abilities (Section 2.1).<br/>Add an illustrative figure for the attention patterns <br/>for different architectures in Figure 4.<br/>Add the detailed formulas in Table 4. |
+| V7                       | 2023/04/25 | Revise some copy errors in figures and tables.               |
+| V8                       | 2023/04/27 | Add efficient tuning in Section 5.3                          |
+| V9                       | 2023/04/28 | Revise  Section 5.3                                          |
+| V10                      | 2023/05/07 | Revise Table 1, Table 2, and some minor points.              |
+| V11 <br>(major revision) | 2023/06/29 | – Section 1: add Figure 1 for the trends of published<br/>LLM papers in arXiv;<br/>– Section 2: add Figure 3 for GPT’s evolution and the<br/>corresponding discussion;<br/>– Section 3: add Figure 4 for LLaMA family and the<br/>corresponding discussion;<br/>– Section 5: add latest discussion about the synthetic<br/>data formatting of instruction tuning in Section 5.1.1,<br/>the empirical analysis for instruction tuning in Sec-<br/>tion 5.1.4, parameter-efficient model adaptation in<br/>Section 5.3 and memory-efficient adaptation in Sec-<br/>tion 5.4;<br/>– Section 6: add latest discussion about the underlying<br/>mechanism of ICL 6.1.3, planning for complex task<br/>solving in Section 6.3;<br/>– Section 7: add Table 10 for representative datasets for<br/>evaluating advanced abilities of LLMs, and empirical<br/>ability evaluation in Section 7.3.2;<br/>– Section 8: add prompt design;<br/>– Section 9: add the discussions on applications of<br/>LLMs in finance and scientific research domains; |
 
