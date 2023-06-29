@@ -54,9 +54,9 @@ To reproduce our experiments, we also publicly release our experimental code and
 ## Table of Contents
 
 - [Timeline of LLMs](#Timeline-of-LLMs)
-- [Evolutionary Graph of LLaMA Family](#🚀(New) Evolutionary-Graph-of-LLaMA-Family)
-- [Prompts](#🚀(New) prompts)
-- [Experiments](#🚀(New) experiments)
+- [Evolutionary Graph of LLaMA Family](#🚀(New)-Evolutionary-Graph-of-LLaMA-Family)
+- [Prompts](#🚀(New)-prompts)
+- [Experiments](#🚀(New)-experiments)
 - [List of LLMs](#List-of-LLMs)
 - [Paper List](#paper-list)
   - [Resources of LLMs](#resources-of-llms)
