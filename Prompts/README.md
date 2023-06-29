@@ -98,7 +98,7 @@
   </tr>
   <tr>
     <td class="tg-0lax">O3. The prompt should be <span style="font-weight:bold;text-decoration:underline">self-contained</span>, and better not include the information in the context with pronouns <span style="font-style:italic">(e.g., it and they)</span>.</td>
-    <td class="tg-0lax"></td>
+    <td class="tg-0lax">1⃝</td>
   </tr>
   <tr>
     <td class="tg-0lax">O4. When using LLMs for <span style="font-weight:bold;text-decoration:underline">comparing</span> two or more examples, the order affects the performance a lot.</td>
