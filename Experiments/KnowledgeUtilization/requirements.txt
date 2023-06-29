@@ -1,0 +1,6 @@
+openai
+tiktoken
+slack
+flask
+flask_slack
+tqdm

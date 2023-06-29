@@ -1,0 +1,57 @@
+[
+    {
+        "question": "For every 12 cans you recycle, you receive $0.50, and for every 5 kilograms of newspapers, you receive $1.50. If your family collected 144 cans and 20 kilograms of newspapers, how much money would you receive?",
+        "answer": "There are 144/12 = <<144/12=12>>12 sets of 12 cans that the family collected.\nSo, the family would receive $0.50 x 12 = $<<0.50*12=6>>6 for the cans.\nThere are 20/5 = <<20/5=4>>4 sets of 5 kilograms of newspapers that the family collected.\nSo, the family would receive $1.50 x 4 = $<<1.50*4=6>>6 for the newspapers.\nTherefore, the family would receive a total of $6 + $6 = $<<6+6=12>>12.\n#### 12",
+        "sub-problem": "1. How many sets of 12 cans that the family collected?\n2. How much money the family would receive for the cans?\n3. How many sets of 5 kilograms of newspapers that the family collected?\n4. How much money the family would receive for the newspapers\n5. how much money would you receive?",
+	"sub-problem-cot": "There are 144/12 = <<144/12=12>>12 sets of 12 cans that the family collected.\nThe family would receive $0.50 x 12 = $<<0.50*12=6>>6 for the cans.\nThere are 20/5 = <<20/5=4>>4 sets of 5 kilograms of newspapers that the family collected.\nThe family would receive $1.50 x 4 = $<<1.50*4=6>>6 for the newspapers.\nThe family would receive a total of $6 + $6 = $<<6+6=12>>12."
+    },
+    {
+        "question": "Betty picked 16 strawberries. Matthew picked 20 more strawberries than Betty and twice as many as Natalie. They used their strawberries to make jam. One jar of jam used 7 strawberries and they sold each jar at $4. How much money were they able to make from the strawberries they picked?",
+        "answer": "Matthew picked 16 + 20 = <<16+20=36>>36 strawberries.\nNatalie picked 36/2 = <<36/2=18>>18 strawberries.\nAll together, they have 16 + 36 + 18 = <<16+36+18=70>>70 strawberries.\nThey can make 70/7 = <<70/7=10>>10 jars of strawberries.\nThey earn 10 x $4 = $<<10*4=40>>40 from the strawberries they picked.\n#### 40",
+        "sub-problem": "1. How many strawberries did Matthew pick?\n2. How many strawberries did Natalie pick?\n3. How many stawrberries did they pick in total?\n4. How many jars can they make?\n5. How much money were they able to make from the strawberries they picked?",
+	"sub-problem-cot": "Matthew picked 16 + 20 = <<16+20=36>>36 strawberries.\nNatalie picked 36/2 = <<36/2=18>>18 strawberries.\nAll together, they have 16 + 36 + 18 = <<16+36+18=70>>70 strawberries.\nThey can make 70/7 = <<70/7=10>>10 jars of strawberries.\nThey earn 10 x $4 = $<<10*4=40>>40 from the strawberries they picked."
+    },
+    {
+        "question": "Jack has a stack of books that is 12 inches thick. He knows from experience that 80 pages is one inch thick. If he has 6 books, how many pages is each one on average?",
+        "answer": "There are 960 pages because 80 x 12 = <<80*12=960>>960\nEach book is 160 pages because 960 / 6 = <<960/6=160>>160\n#### 160",
+        "sub-problem": "1. How many pages of books in total?\n2. How much pages of each book?",
+	"sub-problem-cot": "There are 960 pages because 80 x 12 = <<80*12=960>>960\nEach book is 160 pages because 960 / 6 = <<960/6=160>>160"
+    },
+    {
+        "question": "James dumps his whole collection of 500 Legos on the floor and starts building a castle out of them.  He uses half the pieces before finishing and is told to put the rest away.  He puts all of the leftover pieces back in the box they came from, except for 5 missing pieces that he can't find.  How many Legos are in the box at the end?",
+        "answer": "James starts with 500 Legos and uses half of them, leaving 500/2=<<500/2=250>>250 Legos unused.\nHe puts those unused Legos away but since he's missing 5 he only puts 250-5=<<250-5=245>>245 Legos away.\n#### 245",
+        "sub-problem": "1. How many Legos unused?\n2. How many Legos are in the box at the end?",
+	"sub-problem-cot": "James starts with 500 Legos and uses half of them, leaving 500/2=<<500/2=250>>250 Legos unused.\nHe puts those unused Legos away but since he's missing 5 he only puts 250-5=<<250-5=245>>245 Legos away."
+    },
+    {
+        "question": "Ines had $20 in her purse. She bought 3 pounds of peaches, which are $2 per pound at the local farmers\u2019 market. How much did she have left?",
+        "answer": "Ines bought 3 pounds of peaches for 3 peaches * $2/peach = $<<3*2=6>>6.\nInes has $20 - $6 = $<<20-6=14>>14 left.\n#### 14",
+        "sub-problem": "1. How much money did Ines used for buying peaches?\n2. How much did she have left?",
+	"sub-problem-cot": "Ines bought 3 pounds of peaches for 3 peaches * $2/peach = $<<3*2=6>>6.\nInes has $20 - $6 = $<<20-6=14>>14 left."
+    },
+    {
+        "question": "Aaron pays his actuary membership fees each year. The membership fee increases yearly by $10. If he pays $80 in the first year, how much does his membership cost, in dollars, in the sixth year?",
+        "answer": "In year 2 he pays 80+10=$<<80+10=90>>90.\nIn year 3 he pays 90+10=$<<90+10=100>>100.\nIn year 4 he pays 100+10=$<<100+10=110>>110.\nIn year 5 he pays 110+10=$<<110+10=120>>120.\nIn year 6 he pays 120+10=$<<120+10=130>>130.\n#### 130",
+        "sub-problem": ""
+    },
+    {
+        "question": "Joseph invested $1000 into a hedge fund. The fund promised a yearly interest rate of 10%. If he deposited an additional $100 every month into the account to add to his initial investment of $1000, how much money will he have in the fund after two years?",
+        "answer": "For the first year, Joseph will have invested $1000 + ($100 * 12) = $<<1000+100*12=2200>>2200.\nThe interest calculated for the first year will be $2200 * 10% = $<<2200*10*.01=220>>220.\nThe total value of the investment for the first year will be $2200 + $220 = $<<2200+220=2420>>2420.\nFor the second year, the total invested will be $2420 + ($100 * 12) = $<<2420+100*12=3620>>3620.\nThe interest calculated after the second year will be $3620 * 10% = $<<3620*10*.01=362>>362.\nTherefore, Joseph's investment in the mutual fund will be worth $3620 + $362 = $<<3620+362=3982>>3982.\n#### 3982",
+        "sub-problem": ""
+    },
+    {
+        "question": "The price of buying a wooden toy at the new Craftee And Best store is $20, and the cost of buying a hat is $10. If Kendra went to the shop with a $100 bill and bought two wooden toys and three hats, calculate the change she received.",
+        "answer": "When Kendra bought 2 toys, she paid 2*$20 = $<<2*20=40>>40\nSince the price of a hat is $10, when Kendra bought 3 hats, she paid 3*$10 = $<<3*10=30>>30\nThe total costs for the hats and wooden toys Kendra bought is $40+$30 = $<<40+30=70>>70\nFrom the $100 bill, Kendra received change worth $100-$70 =$<<100-70=30>>30\n#### 30",
+        "sub-problem": ""
+    },
+    {
+        "question": "James is trying to create a new breed of kittens with extra-long tails. Each generation of kittens he breeds has a tail 25% longer than the last generation. If the first generation has tails 16 cm long, how long are the third generation's tails?",
+        "answer": "First find how much longer the second generation's tails are: 25% * 16 cm = <<25*.01*16=4>>4 cm\nThen add that length to the first generation's tail length to find the second generation's tail length: 4 cm + 16 cm = <<4+16=20>>20 cm\nThen find how much longer the third generation's tails are: 25% * 20 cm = <<25*.01*20=5>>5 cm\nThen add that length to the second generation's tail length to find the third generation's tail length: 5 cm + 20 cm = <<5+20=25>>25 cm\n#### 25",
+        "sub-problem": ""
+    },
+    {
+        "question": "The Rotary Club is holding its annual fundraising Omelet Breakfast, with tickets sold in advance. The tickets come in different price levels, for young children, older children, adults, and seniors. This year they sold 53 small children tickets, 35 older children tickets, 75 adult tickets, and 37 senior tickets. To figure out how many eggs they need to buy, the club estimates that small children can eat a half omelet, older children can eat a whole omelet, adults will eat two omelets, and seniors will eat one and a half omelets. Just to be on the safe side, they get enough eggs to make 25 extra omelets. If they use 2 eggs for each omelet, how many eggs will they need to buy?",
+        "answer": "They'll need to make an estimated 0.5 * 53 = <<0.5*53=26.5>>26.5 omelets for small children.\nThey'll need to make an estimated 1 * 35 = <<1*35=35>>35 omelets for older children.\nThey'll need to make an estimated 2 * 75 = <<2*75=150>>150 omelets for the adults.\nAnd they'll need to make an estimated 1.5 * 37 = <<1.5*37=55.5>>55.5 omelets for the seniors.\nAlong with the 25 extra omelets they'll make as a buffer, they will need enough eggs for 26.5 + 35 + 150 + 55.5 + 25 = <<26.5+35+150+55.5+25=292>>292 omelets.\nSo they will need 2 * 292 = <<2*292=584>>584 eggs.\n#### 584",
+        "sub-problem": ""
+    }
+]

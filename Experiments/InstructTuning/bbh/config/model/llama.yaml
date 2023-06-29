@@ -1,0 +1,5 @@
+model_cls: LLaMAModel
+max_length: 2048
+model_alias: null
+url: null
+model_path: your model path

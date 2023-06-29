@@ -1,0 +1,4 @@
+model_cls: DummyModel
+max_length: 2048
+model_alias: null
+url: null

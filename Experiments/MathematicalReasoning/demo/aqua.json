@@ -1,0 +1,122 @@
+[
+    {
+        "question": "In how many different ways can the letters of the word 'MATHEMATICS' be arranged so that the vowels always come together ?",
+        "options": [
+            "A)120960",
+            "B)135650",
+            "C)115850",
+            "D)142560",
+            "E)185260"
+        ],
+        "rationale": "In the word 'MATHEMATICS' we treat the two vowels AEAI as one letter. Thus,we have MTHMTCS (AEAI)\nNow, we have to arranged 8 letters, out of which M occurs twice, T occurs twice and the rest are different.\nNumber of ways of arranging these letters= 8!/(2!)(2!)=10080.\nNow AEAI has 4 letters in which A occurs 2 times and the rest are different.\nnumber of ways of arranging these letters =4!/2!=12.\nRequired number of ways =(10080*12)=120960.\nAnswer is A",
+        "correct": "A"
+    },
+    {
+        "question": "an operation * is defined by the equation:\na*b=a-b/a+b, for all numbers a and b such that a is not equal to -b, if a is not equal to -t and a*t=0, then =?",
+        "options": [
+            "A)a) -a",
+            "B)b) -1/a",
+            "C)c) 1/a",
+            "D)d)0",
+            "E)e)a"
+        ],
+        "rationale": "If a*t=0 and a=-t then a-t = o of a=t, so answer E",
+        "correct": "E"
+    },
+    {
+        "question": "How much time will a train of length 200 m moving at a speed of 72 kmph take to cross another train of length 300 m, moving at 36 kmph in the same direction?",
+        "options": [
+            "A)50 sec",
+            "B)77",
+            "C)55",
+            "D)44",
+            "E)11"
+        ],
+        "rationale": "Answer: Option A\nExplanation:\nThe distance to be covered = Sum of their lengths = 200 + 300 = 500 m.\nRelative speed = 72 -36 = 36 kmph = 36 * 5/18 = 10 mps.\nTime required = d/s = 500/10\n= 50 sec.\nAnswer: A",
+        "correct": "A"
+    },
+    {
+        "question": "The number x of cars sold each week varies with the price y in dollars according to the equation x = 800,000 \u2013 50y. What would be the total weekly revenue R, in dollars, from the sale of cars priced at $ 15,000?",
+        "options": [
+            "A)50,000",
+            "B)750,000",
+            "C)850,000",
+            "D)7,500,000",
+            "E)R=750,000,000"
+        ],
+        "rationale": "number of cars sold = x=800000-50y\ny= 15000\nx=800000-750000=50000\nrevenue from 50000 cars=15000*50000=750000000 E",
+        "correct": "E"
+    },
+    {
+        "question": "Find the principle on a certain sum of money at 5% per annum for 2 2/5 years if the amount being Rs.1120?",
+        "options": [
+            "A)1000",
+            "B)289",
+            "C)209",
+            "D)280",
+            "E)892"
+        ],
+        "rationale": "1120 = P [1 + (5*12/5)/100]\nP= 1000\nAnswer: A",
+        "correct": "A"
+    },
+    {
+        "question": "The time in a clock is 20 minute past 2. Find the angle between the hands of the clock.",
+        "options": [
+            "A)60 degrees",
+            "B)120 degrees",
+            "C)45 degrees",
+            "D)50 degrees",
+            "E)None of these"
+        ],
+        "rationale": "Solution:\nTime is 2:20. Position of the hands: Hour hand at 2 (nearly).\nMinute hand at 4\nAngle between 2 and 4 is 60 degrees [(360/12) * (4-2)]\nAngle made by the hour hand in 20 minutes is 10 degrees, since it turns through \u00bd degrees in a minute.\nTherefore, angle between the hands is 60 degrees - 10 degrees = 50 degrees\nAnswer D",
+        "correct": "D"
+    },
+    {
+        "question": "Ramesh can finish a work in 20 days and Sushil in 25 days. They both work together for 5 days and then Sushil goes away. In how many days will Ramesh complete the remaining work?",
+        "options": [
+            "A)22 days",
+            "B)68 days",
+            "C)77 days",
+            "D)11 days",
+            "E)88 days"
+        ],
+        "rationale": "(5 + x)/20 + 5/25 = 1 => x = 11 days\nAnswer: D",
+        "correct": "D"
+    },
+    {
+        "question": "P cycles at a speed of 4 m/s for the first 8 seconds, 5 m/s for the next 8 seconds, 6 m/s for the next 8 and so on. Q cycles at a constant speed of 6.5 m/s throughout. If P and Q had to cycle for a 400 m race, how much lead in terms of distance, can P give Q and still finish at the same time as Q?",
+        "options": [
+            "A)43.4 m",
+            "B)56.6 m",
+            "C)32.1 m",
+            "D)P cannot give a lead as Q is always ahead of P",
+            "E)None of these"
+        ],
+        "rationale": "DETAILED SOLUTION\nDistance covered by P in 8 sec = 4 * 8 = 32 m\nDistance covered by P in 16 sec = 32 + 5 *8 = 72 m\nDistance covered by P in 24 sec = 72 + 6 * 8 = 120 m\nDistance covered by P in 32 sec = 120 + 7 * 8 = 176 m\nDistance covered by P in 40 sec = 176 + 8 * 8 = 240 m\nDistance covered by P in 48 sec = 240 + 9 * 8 = 312 m\nTotal distance in 48 sec = 312m\nTo cover balance 86 m with speed = 10 m/sec, time taken = 86/10 = 8.6 sec\nSo P would finish 400 m in 48 + 8.6 = 56.6 seconds.\nIn 56.6 seconds, Q cycles 56.6 * 6.5 = 367.9 m or B should have a 32.1 m lead to result in a dead heat.\nCORRECT ANSWER C",
+        "correct": "C"
+    },
+    {
+        "question": "Set R has a mean of 11 and a standard deviation of 1.5. We are going to add two additional numbers to Set S. Which pair of numbers would decrease the standard deviation the most?",
+        "options": [
+            "A){15, 13}",
+            "B){11, 14}",
+            "C){10, 12}",
+            "D){14, 19}",
+            "E){14, 11}"
+        ],
+        "rationale": "The lesser the variance( values closer to mean) ,lower the standard deviation. As discussed in question the mean is 11,the values (10,12) are closer than others.\nHence Answer : C",
+        "correct": "C"
+    },
+    {
+        "question": "A company that ships boxes to a total of 12 distribution centers uses color coding to identify each center. If either a single color or a pair of two different colors is chosen to represent each center and if each center is uniquely represented by that choice of one or two colors, what is the minimum number of colors needed for the coding? (Assume that the order of the colors in a pair does not matter.)",
+        "options": [
+            "A)4",
+            "B)5",
+            "C)6",
+            "D)12",
+            "E)24"
+        ],
+        "rationale": "Let's start with 4 minimum number of colors\nSo single color code we can make 4 nos.\nNow if we need to make 2 color combination out of 4 we can do so in 4!/2!*2! or 4*3/2 or 6\nSo total we can make 4+6=10 color combinations but we have 12 boxes\nSo let's look at 5 we get 5 single color codes\nand out 5 color choices, we can choose 2 in 5!/2!*3! ways or 10 ways.\nSo total we can have 5+10=15 color combinations.\nSo, minimum number we need will be 5\nAns is B.......",
+        "correct": "B"
+    }
+]

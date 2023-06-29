@@ -1,0 +1,9 @@
+model_cls: OpenAIModel
+
+# hyper-parameters for openai api
+model_alias: null
+temperature: 0
+max_tokens: 512
+n: 1
+logprobs: 5
+api_key: null
