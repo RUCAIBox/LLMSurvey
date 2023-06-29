@@ -28,14 +28,48 @@ To facilitate the reading of our (English-verison) survey, we also employ LLMs +
 
 
 
+## 🚀(New) The trends of the number of papers related to LLMs on arXiv
+
+Here are the trends of the cumulative numbers of arXiv papers that contain the keyphrases “language model” (since June 2018)
+and “large language model” (since October 2019), respectively.
+
+![arxiv_llms](assets/arxiv_llms.png)
+
+The statistics are calculated using exact match by querying the keyphrases in title or abstract by months. We set different x-axis ranges for the two keyphrases, because “language models” have been explored at an earlier time. We label the points corresponding to important landmarks in the research progress of LLMs. A sharp increase occurs after the release of ChatGPT: the average number of published arXiv papers that contain “large language model” in title or abstract goes from 0.40 per day to 8.58 per day.
+
+
+
+## 🚀(New) Technical Evolution of GPT-series Models
+
+A brief illustration for the technical evolution of GPT-series models. We plot this figure mainly based on the papers, blog articles and official APIs from OpenAI. Here, solid lines denote that there exists an explicit evidence (e.g., the official statement that a new model is developed based on a base model) on the evolution path between two models, while dashed lines denote a relatively weaker evolution relation.
+
+
+
+![gpt-series](assets/gpt-series.png)
+
+
+
 ## 🚀(New) Evolutionary Graph of LLaMA Family
 
+An evolutionary graph of the research work conducted on LLaMA. Due to the huge number, we cannot include all
+the LLaMA variants in this figure, even much excellent work. 
+
+
+
 ![LLaMA_family](assets/llama-0628-final.png)
+
+
+
+To support incremental update, **we share the source file of this figure, and welcome the readers to include the desired models by submitting the pull requests on our GitHub page. If you're instrested, please request by application.**
+
+
 
 
 ## 🚀(New) Prompts
 
 We collect some useful tips for designing prompts that are collected from online notes and experiences from our authors, where we also show the related ingredients and principles (introduced in Section 8.1). 
+
+![prompt examples](assets/prompts_main.png)
 
 Please click [here](Prompts/README.md) to view more detailed information.
 
@@ -45,7 +79,31 @@ Please click [here](Prompts/README.md) to view more detailed information.
 
 ## 🚀(New) Experiments
 
-To reproduce our experiments, we also publicly release our experimental code and data [here](Experiments/README.md). 
+### Instruction Tuning Experiments
+
+We will explore the effect of different types of instructions in fine-tuning LLMs (i.e., 7B LLaMA26), as well as examine the usefulness of several instruction improvement strategies.
+
+
+
+![instruction_tuning_table](assets/instruction_tuning_table.png)
+
+
+
+Please click [here](Experiments/README.md) to view more detailed information.
+
+### Ability Evaluaition Experiments
+
+We conduct a fine-grained evaluation on the abilities discussed in Section 7.1 and Section 7.2. For each kind of ability, we select representative tasks and datasets for conducting evaluation experiments to examine the corresponding performance of LLMs. Next, we will first introduce the experimental settings for evaluation.
+
+
+
+![ability_main](assets/ability_main.png)
+
+
+
+Please click [here](Experiments/README.md) to view more detailed information.
+
+
 
 **We also call for support of computing power for conducting more comprehensive experiments.**
 
@@ -53,10 +111,12 @@ To reproduce our experiments, we also publicly release our experimental code and
 
 ## Table of Contents
 
-- [Timeline of LLMs](#Timeline-of-LLMs)
+- [The trends of the number of papers related to LLMs on arXiv](#🚀(New)-The-trends-of-the-number-of-papers-related-to-LLMs-on-arXiv)
+- [Technical Evolution of GPT-series Models](#🚀(New)-Technical-Evolution-of-GPT-series-Models)
 - [Evolutionary Graph of LLaMA Family](#🚀(New)-Evolutionary-Graph-of-LLaMA-Family)
 - [Prompts](#🚀(New)-prompts)
 - [Experiments](#🚀(New)-experiments)
+- [Timeline of LLMs](#Timeline-of-LLMs)
 - [List of LLMs](#List-of-LLMs)
 - [Paper List](#paper-list)
   - [Resources of LLMs](#resources-of-llms)
