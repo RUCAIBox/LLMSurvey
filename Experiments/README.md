@@ -2,17 +2,17 @@
 >
 > 
 
-- Language Generation related [code and data](LanguageGeneration).
-- Knowledge Utilization related [code and data](KnowledgeUtilization).
-- Knowledge Reasoning related [code and data](KnowledgeUtilization).
-- Symbolic Reasoning related [code and data](SymbolicReasoning).
-- Mathematical Reasoning related [code and data](MathematicalReasoning).
-- Human Alignment related [code and data](HumanAlignment).
-- Tool Manipulation related [code and data](ToolManipulation).
+- Language Generation  [experiments](LanguageGeneration).
+- Knowledge Utilization related [experiments](KnowledgeUtilization).
+- Knowledge Reasoning related [experiments](KnowledgeUtilization).
+- Symbolic Reasoning related [experiments](SymbolicReasoning).
+- Mathematical Reasoning related [experiments](MathematicalReasoning).
+- Human Alignment related [experiments](HumanAlignment).
+- Tool Manipulation related [experiments](ToolManipulation).
 
 
 
-Here is evaluation on the eight abilities of LLMs with specially selected tasks.
+Here is the results of evaluation on the eight abilities of LLMs with specially selected tasks.
 
 ![table1](../assets/Evaluation_table_1.png)
 
