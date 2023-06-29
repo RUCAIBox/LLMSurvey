@@ -1,6 +1,16 @@
+# Prompts
+
+
+
 > We collect some useful tips for designing prompts that are collected from online notes and experiences from our authors, where we also show the related ingredients and principles (introduced in Section 8.1). 
 >
 > We abbreviate principles as Prin. and list the IDs of the related principles for each prompt. 1⃝: expressing the task goal clearly; 2⃝: decomposing into easy, detailed sub-tasks; 3⃝: providing few-shot demonstrations; 4⃝: utilizing model-friendly format.
+>
+> **Welcome everyone to provide us with more relevant tips in the form of [issues](https://github.com/RUCAIBox/LLMSurvey/issues/34)**. After selection, we will regularly update them on GitHub and indicate the source.
+
+
+
+
 
 <table class="tg">
 <thead>

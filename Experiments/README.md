@@ -2,7 +2,7 @@
 
 
 
-> To reproduce our experiments, we publicly release our experimental code and data here in corrding to the ability.
+> To reproduce our experiments, we publicly release our experimental code and data here accorrding to correponding ability.
 >
 > **We also call for support of computing power for conducting more comprehensive experiments.**
 
