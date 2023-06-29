@@ -28,6 +28,10 @@ To facilitate the reading of our (English-verison) survey, we also employ LLMs +
 
 
 
+![chinese_version](assets/chinese_version.png)
+
+
+
 ## 🚀(New) The trends of the number of papers related to LLMs on arXiv
 
 Here are the trends of the cumulative numbers of arXiv papers that contain the keyphrases “language model” (since June 2018)
