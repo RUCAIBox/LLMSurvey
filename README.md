@@ -115,36 +115,46 @@ Please click [here](Experiments/README.md) to view more detailed information.
 
 ## Table of Contents
 
-- [The trends of the number of papers related to LLMs on arXiv](#🚀(New)-The-trends-of-the-number-of-papers-related-to-LLMs-on-arXiv)
-- [Technical Evolution of GPT-series Models](#🚀(New)-Technical-Evolution-of-GPT-series-Models)
-- [Evolutionary Graph of LLaMA Family](#🚀(New)-Evolutionary-Graph-of-LLaMA-Family)
-- [Prompts](#🚀(New)-prompts)
-- [Experiments](#🚀(New)-experiments)
-- [Timeline of LLMs](#Timeline-of-LLMs)
-- [List of LLMs](#List-of-LLMs)
-- [Paper List](#paper-list)
-  - [Resources of LLMs](#resources-of-llms)
-    - [Publicly Available Models](#publicly-available-Models)
-    - [Closed-source Models](#closed-source-models)
-    - [Commonly Used Corpora](#commonly-used-corpora)
-    - [Library Resources](#library-resources)
-    - [Deep Learning Frameworks](#deep-learning-frameworks)
-
-  - [Pre-training](#pre-training)
-    - [Data Collection](#data-collection)
-    - [Architecture](#architecture)
-    - [Training Algorithms](#training-algorithms)
-    - [Pre-training on Code](#pre-training-on-code)
-
-  - [Adaptation Tuning](#adaptation-tuning)
-    - [Instruction Tuning](#instruction-tuning)
-    - [Alignment Tuning](#alignment-tuning)
-
-  - [Utilization](#utilization)
-  - [Capacity Evaluation](#capacity-evaluation)
-- [The Team](#the-team)
-- [Acknowledgments](#acknowledgments)
-- [Updata Log](#update-log)
+- [LLMSurvey](#llmsurvey)
+  - [Chinese Version](#chinese-version)
+  - [🚀(New) The trends of the number of papers related to LLMs on arXiv](#new-the-trends-of-the-number-of-papers-related-to-llms-on-arxiv)
+  - [🚀(New) Technical Evolution of GPT-series Models](#new-technical-evolution-of-gpt-series-models)
+  - [🚀(New) Evolutionary Graph of LLaMA Family](#new-evolutionary-graph-of-llama-family)
+  - [🚀(New) Prompts](#new-prompts)
+  - [🚀(New) Experiments](#new-experiments)
+    - [Instruction Tuning Experiments](#instruction-tuning-experiments)
+    - [Ability Evaluaition Experiments](#ability-evaluaition-experiments)
+  - [Table of Contents](#table-of-contents)
+  - [Timeline of LLMs](#timeline-of-llms)
+  - [List of LLMs](#list-of-llms)
+  - [Paper List](#paper-list)
+    - [Resources of LLMs](#resources-of-llms)
+      - [Publicly Available Models](#publicly-available-models)
+      - [Closed-source Models](#closed-source-models)
+      - [Commonly Used Corpora](#commonly-used-corpora)
+      - [Library Resource](#library-resource)
+      - [Deep Learning Frameworks](#deep-learning-frameworks)
+    - [Pre-training](#pre-training)
+      - [Data Collection](#data-collection)
+      - [Architecture](#architecture)
+        - [Mainstream Architectures](#mainstream-architectures)
+        - [Detailed Configuration](#detailed-configuration)
+        - [Analysis](#analysis)
+      - [Training Algorithms](#training-algorithms)
+      - [Pre-training on Code](#pre-training-on-code)
+        - [LLMs for Program Synthesis](#llms-for-program-synthesis)
+        - [NLP Tasks Formatted as Code](#nlp-tasks-formatted-as-code)
+    - [Adaptation Tuning](#adaptation-tuning)
+      - [Instruction Tuning](#instruction-tuning)
+      - [Alignment Tuning](#alignment-tuning)
+    - [Utilization](#utilization)
+      - [In-Context Learning (ICL)](#in-context-learning-icl)
+      - [Chain-of-Thought Reasoning (CoT)](#chain-of-thought-reasoning-cot)
+      - [Planning for Complex Task Solving](#planning-for-complex-task-solving)
+    - [Capacity Evaluation](#capacity-evaluation)
+    - [The Team](#the-team)
+  - [Acknowledgments](#acknowledgments)
+  - [Update Log](#update-log)
 
 ## Timeline of LLMs
 
@@ -698,23 +708,22 @@ Please click [here](Experiments/README.md) to view more detailed information.
 1. **"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer"**. *Colin Raffel et al*. JMLR 2020. [[Paper](https://arxiv.org/abs/1910.10683)] [[Checkpoint](https://github.com/google-research/text-to-text-transfer-transformer#released-model-checkpoints)]
 1. **"Muppet: Massive Multi-task Representations with Pre-Finetuning"**. *Armen Aghajanyan et al*. EMNLP 2021. [[Paper](https://arxiv.org/abs/2101.11038)] [[Checkpoint](https://huggingface.co/models?other=arxiv:2101.11038)]
 1. **"Cross-Task Generalization via Natural Language Crowdsourcing Instructions"**. *Swaroop Mishra et al*. ACL 2022. [[Paper](https://arxiv.org/abs/2104.08773)] [[Collection](https://instructions.apps.allenai.org/#data)]
-1. **"CrossFit: A Few-shot Learning Challenge for Cross-task Generalization in NLP"**. *Qinyuan Ye et al*. EMNLP 2021. [[Paper](https://arxiv.org/abs/2104.08835)] [[Collection](https://github.com/INK-USC/CrossFit)]
 1. **"Finetuned Language Models Are Zero-Shot Learners"**. *Jason Wei et al*. ICLR 2022. [[Paper](https://arxiv.org/abs/2109.01652)] [[Homepage](https://github.com/google-research/FLAN)]
 1. **"Multitask Prompted Training Enables Zero-Shot Task Generalization"**. *Victor Sanh et al*. ICLR 2022. [[Paper](https://arxiv.org/abs/2110.08207)] [[Checkpoint](https://huggingface.co/bigscience/T0#how-to-use)]
-1. **"ExT5: Towards Extreme Multi-Task Scaling for Transfer Learning"**. *Vamsi Aribandi et al*. ICLR 2022. [[Paper](https://arxiv.org/abs/2111.10952)]
-1. **"UnifiedSKG: Unifying and Multi-Tasking Structured Knowledge Grounding with Text-to-Text Language Models"**. *Tianbao Xie et al*. EMNLP 2022. [[Paper](https://arxiv.org/abs/2201.05966)] [[Collection](https://github.com/HKUNLP/UnifiedSKG)] [[Checkpoint](https://huggingface.co/hkunlp)]
 1. **"PromptSource: An Integrated Development Environment and Repository for Natural Language Prompts"**. *Stephen H. Bach et al*. ACL 2022. [[Paper](https://arxiv.org/abs/2202.01279)] [[Collection](https://github.com/bigscience-workshop/promptsource)]
 1.  **"Training language models to follow instructions with human feedback"**. *Long Ouyang et al*. arXiv 2022. [[Paper](https://arxiv.org/abs/2203.02155)]
 1. **"Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+ NLP Tasks"**. *Yizhong Wang et al*. EMNLP 2022. [[Paper](https://arxiv.org/abs/2204.07705)] [[Collection](https://instructions.apps.allenai.org/#data)] [[Checkpoint](https://huggingface.co/models?search=tk-instruct-)]
 1. **"MVP: Multi-task Supervised Pre-training for Natural Language Generation"**. *Tianyi Tang et al*. arXiv 2022. [[Paper](https://arxiv.org/abs/2206.12131)] [[Collection](https://huggingface.co/RUCAIBox)] [[Checkpoint](https://huggingface.co/RUCAIBox)]
 1. **"Crosslingual Generalization through Multitask Finetuning"**. *Niklas Muennighoff et al*. arXiv 2022. [[Paper](https://arxiv.org/abs/2211.01786)] [[Collection](https://github.com/bigscience-workshop/xmtf#data)] [[Checkpoint](https://github.com/bigscience-workshop/xmtf#models)]
-1. **"Learning Instructions with Unlabeled Data for Zero-Shot Cross-Task Generalization"**. *Yuxian Gu et al*. EMNLP 2022. [[Paper](https://arxiv.org/abs/2210.09175)] [[Homepage](https://github.com/thu-coai/UDIT)]
 1. **"Scaling Instruction-Finetuned Language Models"**. *Hyung Won Chung et al*. arXiv 2022. [[Paper](https://arxiv.org/abs/2210.11416)] [[Homepage](https://github.com/google-research/FLAN)]
 1. **"Unnatural Instructions: Tuning Language Models with (Almost) No Human Labor"**. *Or Honovich et al*. arXiv 2022. [[Paper](https://arxiv.org/abs/2212.09689)] [[Homepage](https://github.com/orhonovich/unnatural-instructions)]
 1. **"Self-Instruct: Aligning Language Model with Self Generated Instructions"**. *Yizhong Wang et al*. arXiv 2022. [[Paper](https://arxiv.org/abs/2212.10560)] [[Homepage](https://github.com/yizhongw/self-instruct)]
 1. **"OPT-IML: Scaling Language Model Instruction Meta Learning through the Lens of Generalization"**. *Srinivasan Iyer et al*. arXiv 2022. [[Paper](https://arxiv.org/abs/2212.12017)] [[Checkpoint](https://github.com/facebookresearch/metaseq/tree/main/projects/OPT-IML)]
 1. **"The Flan Collection: Designing Data and Methods for Effective Instruction Tuning"**. *Shayne Longpre et al*. arXiv 2023. [[Paper](https://arxiv.org/abs/2301.13688)] [[Homepage](https://github.com/google-research/FLAN)]
 1. **"Is Prompt All You Need No. A Comprehensive and Broader View of Instruction Learning"**. *Renze Lou et al*. arXiv 2023. [[Paper](https://arxiv.org/abs/2303.10475)]
+1. **"Maybe Only 0.5% Data is Needed: A Preliminary Exploration of Low Training Data Instruction Tuning"**. *Hao Chen et al*. arXiv 2023. [[Paper](https://arxiv.org/abs/2305.09246)]
+1. **"LIMA: Less Is More for Alignment"**. *Chunting Zhou*. arXiv 2023. [[Paper](https://arxiv.org/abs/2305.11206)]
+
 
 #### Alignment Tuning
 
@@ -737,6 +746,8 @@ Please click [here](Experiments/README.md) to view more detailed information.
 1. **"Is Reinforcement Learning (Not) for Natural Language Processing: Benchmarks, Baselines, and Building Blocks for Natural Language Policy Optimization"**. *Rajkumar Ramamurthy et al*. arXiv 2022. [[Paper](https://arxiv.org/abs/2210.01241)]
 1. **"Scaling Laws for Reward Model Overoptimization"**. *Leo Gao et al*. arXiv 2022. [[Paper](https://arxiv.org/abs/2210.10760)]
 1. **"The Wisdom of Hindsight Makes Language Models Better Instruction Followers"**. *Tianjun Zhang et al*. arXiv 2023. [[Paper](https://arxiv.org/abs/2302.05206)]
+1. **"RAFT: Reward rAnked FineTuning for Generative Foundation Model Alignment"**. *Hanze Dong et al*. arXiv 2023. [[Paper](https://arxiv.org/abs/2304.06767)]
+
 
 
 
@@ -942,4 +953,3 @@ The authors would like to thank Yankai Lin and Yutao Zhu for proofreading  this 
 | V9                       | 2023/04/28 | Revise  Section 5.3                                          |
 | V10                      | 2023/05/07 | Revise Table 1, Table 2, and some minor points.              |
 | V11 <br>(major revision) | 2023/06/29 | – Section 1: add Figure 1 for the trends of published<br/>LLM papers in arXiv;<br/>– Section 2: add Figure 3 for GPT’s evolution and the<br/>corresponding discussion;<br/>– Section 3: add Figure 4 for LLaMA family and the<br/>corresponding discussion;<br/>– Section 5: add latest discussion about the synthetic<br/>data formatting of instruction tuning in Section 5.1.1,<br/>the empirical analysis for instruction tuning in Sec-<br/>tion 5.1.4, parameter-efficient model adaptation in<br/>Section 5.3 and memory-efficient adaptation in Sec-<br/>tion 5.4;<br/>– Section 6: add latest discussion about the underlying<br/>mechanism of ICL 6.1.3, planning for complex task<br/>solving in Section 6.3;<br/>– Section 7: add Table 10 for representative datasets for<br/>evaluating advanced abilities of LLMs, and empirical<br/>ability evaluation in Section 7.3.2;<br/>– Section 8: add prompt design;<br/>– Section 9: add the discussions on applications of<br/>LLMs in finance and scientific research domains; |
-
