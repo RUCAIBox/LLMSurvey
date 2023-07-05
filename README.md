@@ -97,7 +97,7 @@ Please click [here](Experiments/README.md) to view more detailed information.
 
 ### Ability Evaluaition Experiments
 
-We conduct a fine-grained evaluation on the abilities discussed in Section 7.1 and Section 7.2. For each kind of ability, we select representative tasks and datasets for conducting evaluation experiments to examine the corresponding performance of LLMs. Next, we will first introduce the experimental settings for evaluation.
+We conduct a fine-grained evaluation on the abilities discussed in Section 7.1 and Section 7.2. For each kind of ability, we select representative tasks and datasets for conducting evaluation experiments to examine the corresponding performance of LLMs. 
 
 
 
