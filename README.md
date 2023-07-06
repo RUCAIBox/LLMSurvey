@@ -3,7 +3,7 @@
 
 > A collection of papers and resources related to Large Language Models. 
 >
-> The organization of papers refers to our survey [**"A Survey of Large Language Models"**](https://arxiv.org/abs/2303.18223).
+> The organization of papers refers to our survey [**"A Survey of Large Language Models"**](https://arxiv.org/abs/2303.18223). [![Paper page](https://huggingface.co/datasets/huggingface/badges/raw/main/paper-page-sm-dark.svg)](https://huggingface.co/papers/2303.18223)
 >
 > Please let us know if you find out a mistake or have any suggestions by e-mail: batmanfly@gmail.com
 >
