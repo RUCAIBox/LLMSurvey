@@ -246,7 +246,7 @@ Please click [here](Experiments/README.md) to view more detailed information.
     <td class="tg-baqh" align="center">YaLM</td>
     <td class="tg-0lax" align="center">2022/06</td>
     <td class="tg-baqh" align="center">100</td>
-    <td class="tg-0lax" align="center"><a href="https://github.com/yandex/YaLM-100B">Github</a></td>
+    <td class="tg-0lax" align="center"><a href="https://github.com/yandex/YaLM-100B">GitHub</a></td>
   </tr>
   <tr>
     <td class="tg-baqh" align="center">NLLB</td>
@@ -318,7 +318,7 @@ Please click [here](Experiments/README.md) to view more detailed information.
     <td class="tg-baqh" align="center">ChatGLM</td>
     <td class="tg-0lax" align="center">2023/03</td>
     <td class="tg-baqh" align="center">6</td>
-    <td class="tg-0lax" align="center"><a href="https://github.com/THUDM/ChatGLM-6B">Github</a></td>
+    <td class="tg-0lax" align="center"><a href="https://github.com/THUDM/ChatGLM-6B">GitHub</a></td>
   </tr>
   <tr>
     <td class="tg-baqh" align="center">CodeGeeX</td>
