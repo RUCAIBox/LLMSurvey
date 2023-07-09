@@ -312,7 +312,7 @@ Please click [here](Experiments/README.md) to view more detailed information.
     <td class="tg-baqh" align="center">Vicuna</td>
     <td class="tg-0lax" align="center">2023/03</td>
     <td class="tg-baqh" align="center">13</td>
-    <td class="tg-0lax" align="center"><a href="https://vicuna.lmsys.org/">Blog</a></td>
+    <td class="tg-0lax" align="center"><a href="https://lmsys.org/blog/2023-03-30-vicuna/">Blog</a></td>
   </tr>
   <tr>
     <td class="tg-baqh" align="center">ChatGLM</td>
