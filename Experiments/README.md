@@ -17,6 +17,7 @@
 - Mathematical Reasoning  [experiments](MathematicalReasoning).
 - Human Alignment  [experiments](HumanAlignment).
 - Tool Manipulation  [experiments](ToolManipulation).
+- Knowledge Reasoning [experimets.](KnowledgeReasoning)
 
 
 
