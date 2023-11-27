@@ -327,10 +327,22 @@ Please click [here](Experiments/README.md) to view more detailed information.
     <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2303.17568">Paper</a></td>
   </tr>
   <tr>
+    <td class="tg-baqh" align="center">Alpaca</td>
+    <td class="tg-0lax" align="center">2023/03</td>
+    <td class="tg-baqh" align="center">7</td>
+    <td class="tg-0lax" align="center"><a href="https://crfm.stanford.edu/2023/03/13/alpaca.html">Blog</a></td>
+  </tr>
+  <tr>
     <td class="tg-baqh" align="center">Koala</td>
     <td class="tg-0lax" align="center">2023/04</td>
     <td class="tg-baqh" align="center">13</td>
     <td class="tg-0lax" align="center"><a href="https://bair.berkeley.edu/blog/2023/04/03/koala/">Blog</a></td>
+  </tr>
+    <tr>
+    <td class="tg-baqh" align="center">Mistral</td>
+    <td class="tg-0lax" align="center">2023/09</td>
+    <td class="tg-baqh" align="center">7</td>
+    <td class="tg-0lax" align="center"><a href="https://mistral.ai/news/announcing-mistral-7b/">Blog</a></td>
   </tr>
   <tr>
     <td class="tg-nrix" align="center" rowspan="31">Closed<br>Source</td>
@@ -493,12 +505,6 @@ Please click [here](Experiments/README.md) to view more detailed information.
     <td class="tg-0lax" align="center">2022/10</td>
     <td class="tg-baqh" align="center">540</td>
     <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2210.11416">Paper</a></td>
-  </tr>
-  <tr>
-    <td class="tg-baqh" align="center">Alpaca</td>
-    <td class="tg-0lax" align="center">2023/03</td>
-    <td class="tg-baqh" align="center">7</td>
-    <td class="tg-0lax" align="center"><a href="https://crfm.stanford.edu/2023/03/13/alpaca.html">Blog</a></td>
   </tr>
   <tr>
     <td class="tg-baqh" align="center">GPT-4</td>
