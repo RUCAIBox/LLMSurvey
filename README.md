@@ -22,13 +22,12 @@
 }
 ```
 
-## Chinese Version
+## 🚀(New) We have released the Chinese book of our survey!
 
-To facilitate the reading of our (English-verison) survey, we also translate a [**Chinese version**](assets/LLM_Survey_Chinese.pdf) for this survey. We will continue to update the Chinese version.
+The Chinese book focuses on providing explanations for beginners in the field of LLMs, aiming to present a comprehensive framework and roadmap for LLMs. This book is suitable for senior undergraduate students and junior graduate students with a foundation in deep learning and can serve as an introductory technical book.
+You can download the Chinese book [here](https://llmbook-zh.github.io/).
 
-
-
-![chinese_version](assets/chinese_version.png)
+![chinese_version](assets/chinese_book_cover.jpg)
 
 
 
