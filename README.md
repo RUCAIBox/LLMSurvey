@@ -963,6 +963,7 @@ Please click [here](Experiments/README.md) to view more detailed information.
 85. **"On Robustness of Prompt-based Semantic Parsing with Large Pre-trained Language Model: An Empirical Study on Codex"**. *Terry Yue Zhuo et al.* EACL 2023. [[Paper](https://arxiv.org/abs/2301.12868)]
 86. **"A Systematic Study and Comprehensive Evaluation of ChatGPT on Benchmark Datasets"**. Laskar et al.* ACL'23. [[Paper]](https://arxiv.org/abs/2305.18486)
 87. **"Red-Teaming Large Language Models using Chain of Utterances for Safety-Alignment"**. *Rishabh Bhardwaj et al*. arXiv 2023. [[Paper](https://arxiv.org/abs/2308.09662)]
+88. **”A Comprehensive Study of Knowledge Editing for Large Language Models“**. *Ningyu Zhang et al*. arXiv 2024. [[Paper](https://arxiv.org/abs/2401.01286)]
 
 ### The Team
 
