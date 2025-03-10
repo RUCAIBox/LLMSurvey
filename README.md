@@ -27,6 +27,10 @@
 The Chinese book focuses on providing explanations for beginners in the field of LLMs, aiming to present a comprehensive framework and roadmap for LLMs. This book is suitable for senior undergraduate students and junior graduate students with a foundation in deep learning and can serve as an introductory technical book.
 You can download the Chinese book at [https://llmbook-zh.github.io/](https://llmbook-zh.github.io/).
 
+This is a screenshot of the [Chinese book sales page](https://item.jd.com/14901508.html).
+
+![chinesebook_page](assets/chinesebook_page.jpg)
+
 ![chinese_version](assets/chinese_book_cover.jpg)
 
 
