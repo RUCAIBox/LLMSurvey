@@ -35,7 +35,7 @@ Here is our [Chinese book sales page](https://item.jd.com/14901508.html).
 
 In our latest version, we add new content of the recent popular reasoning paradigm by allocating more time to thinking before responding to a problem. We focus on long CoT reasoning which is the mainstream approach taken by recent LLMs, such as DeepSeek-R1 and OpenAI's o-series models. We first discuss the reasoning patterns and advantages of the long CoT paradigm. Then we present the construction approaches of long CoT data, including data distillation, search-based data synthesis, and multi-agent collaboration. Moreover, we introduce the commonly-used two training methods: long CoT instruction tuning and scaling reinforcement learning training. Finally, we conduct a in-depth discussion about recent test-time scaling efforts for LLMs.
 
-<center><img src="assets/r1_example.png" alt="Examples of long CoT reasoning from DeepSeek-R1 (accessed on January 25, 2025)." width="60%"/></center>
+<div align=center><img src="assets/r1_example.png" alt="Cover" width="60%"/></div>
 
 ## The trends of the number of papers related to LLMs on arXiv
 
@@ -969,6 +969,7 @@ Please click [here](Experiments/README.md) to view more detailed information.
 85. **"On Robustness of Prompt-based Semantic Parsing with Large Pre-trained Language Model: An Empirical Study on Codex"**. *Terry Yue Zhuo et al.* EACL 2023. [[Paper](https://arxiv.org/abs/2301.12868)]
 86. **"A Systematic Study and Comprehensive Evaluation of ChatGPT on Benchmark Datasets"**. Laskar et al.* ACL'23. [[Paper]](https://arxiv.org/abs/2305.18486)
 87. **"Red-Teaming Large Language Models using Chain of Utterances for Safety-Alignment"**. *Rishabh Bhardwaj et al*. arXiv 2023. [[Paper](https://arxiv.org/abs/2308.09662)]
+88. **”A Comprehensive Study of Knowledge Editing for Large Language Models“**. *Ningyu Zhang et al*. arXiv 2024. [[Paper](https://arxiv.org/abs/2401.01286)]
 
 ### The Team
 
