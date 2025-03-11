@@ -35,6 +35,8 @@ Here is our [Chinese book sales page](https://item.jd.com/14901508.html).
 
 In our latest version, we add new content of the recent popular reasoning paradigm by allocating more time to thinking before responding to a problem. We focus on long CoT reasoning which is the mainstream approach taken by recent LLMs, such as DeepSeek-R1 and OpenAI's o-series models. We first discuss the reasoning patterns and advantages of the long CoT paradigm. Then we present the construction approaches of long CoT data, including data distillation, search-based data synthesis, and multi-agent collaboration. Moreover, we introduce the commonly-used two training methods: long CoT instruction tuning and scaling reinforcement learning training. Finally, we conduct a in-depth discussion about recent test-time scaling efforts for LLMs.
 
+![instruction_tuning_table](assets/r1_example.png)
+
 <center><img src="assets/r1_example.png" alt="Examples of long CoT reasoning from DeepSeek-R1 (accessed on January 25, 2025)." width="60%"/></center>
 
 ## The trends of the number of papers related to LLMs on arXiv
