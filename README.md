@@ -31,9 +31,13 @@ Here is our [Chinese book sales page](https://item.jd.com/14901508.html).
 
 ![chinese_version](assets/chinese_book_cover.jpg)
 
+## 🚀(New) We have released the Chinese book of our survey!
 
+In our latest version, we add new content of the recent popular reasoning paradigm by allocating more time to thinking before responding to a problem. We focus on long CoT reasoning which is the mainstream approach taken by recent LLMs, such as DeepSeek-R1 and OpenAI's o-series models. We first discuss the reasoning patterns and advantages of the long CoT paradigm. Then we present the construction approaches of long CoT data, including data distillation, search-based data synthesis, and multi-agent collaboration. Moreover, we introduce the commonly-used two training methods: long CoT instruction tuning and scaling reinforcement learning training. Finally, we conduct a in-depth discussion about recent test-time scaling efforts for LLMs.
 
-## 🚀(New) The trends of the number of papers related to LLMs on arXiv
+![Examples of long CoT reasoning from DeepSeek-R1 (accessed on January 25, 2025).](assets/r1_example.png)
+
+## The trends of the number of papers related to LLMs on arXiv
 
 Here are the trends of the cumulative numbers of arXiv papers that contain the keyphrases “language model” (since June 2018)
 and “large language model” (since October 2019), respectively.
@@ -44,7 +48,7 @@ The statistics are calculated using exact match by querying the keyphrases in ti
 
 
 
-## 🚀(New) Technical Evolution of GPT-series Models
+## Technical Evolution of GPT-series Models
 
 A brief illustration for the technical evolution of GPT-series models. We plot this figure mainly based on the papers, blog articles and official APIs from OpenAI. Here, solid lines denote that there exists an explicit evidence (e.g., the official statement that a new model is developed based on a base model) on the evolution path between two models, while dashed lines denote a relatively weaker evolution relation.
 
@@ -54,7 +58,7 @@ A brief illustration for the technical evolution of GPT-series models. We plot t
 
 
 
-## 🚀(New) Evolutionary Graph of LLaMA Family
+## Evolutionary Graph of LLaMA Family
 
 An evolutionary graph of the research work conducted on LLaMA. Due to the huge number, we cannot include all
 the LLaMA variants in this figure, even much excellent work. 
@@ -70,7 +74,7 @@ To support incremental update, **we share the source file of this figure, and we
 
 
 
-## 🚀(New) Prompts
+## Prompts
 
 We collect some useful tips for designing prompts that are collected from online notes and experiences from our authors, where we also show the related ingredients and principles (introduced in Section 8.1). 
 
@@ -82,7 +86,7 @@ Please click [here](Prompts/README.md) to view more detailed information.
 
 
 
-## 🚀(New) Experiments
+## Experiments
 
 ### Instruction Tuning Experiments
 
