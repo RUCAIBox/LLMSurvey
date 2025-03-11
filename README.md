@@ -165,7 +165,7 @@ Please click [here](Experiments/README.md) to view more detailed information.
 
 ## Timeline of LLMs
 
-![LLMs_timeline](assets/LLMs-0623-final.png)
+![LLMs_timeline](assets/fig2_updated_time_line.png)
 
 
 
