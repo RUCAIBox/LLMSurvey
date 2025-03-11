@@ -31,9 +31,13 @@ Here is our [Chinese book sales page](https://item.jd.com/14901508.html).
 
 ![chinese_version](assets/chinese_book_cover.jpg)
 
+## 🚀(New) The content about long CoT reasoning 
 
+In our latest version, we add new content of the recent popular reasoning paradigm by allocating more time to thinking before responding to a problem. We focus on long CoT reasoning which is the mainstream approach taken by recent LLMs, such as DeepSeek-R1 and OpenAI's o-series models. We first discuss the reasoning patterns and advantages of the long CoT paradigm. Then we present the construction approaches of long CoT data, including data distillation, search-based data synthesis, and multi-agent collaboration. Moreover, we introduce the commonly-used two training methods: long CoT instruction tuning and scaling reinforcement learning training. Finally, we conduct a in-depth discussion about recent test-time scaling efforts for LLMs.
 
-## 🚀(New) The trends of the number of papers related to LLMs on arXiv
+<center><img src="assets/r1_example.png" alt="Examples of long CoT reasoning from DeepSeek-R1 (accessed on January 25, 2025)." width="60%"/></center>
+
+## The trends of the number of papers related to LLMs on arXiv
 
 Here are the trends of the cumulative numbers of arXiv papers that contain the keyphrases “language model” (since June 2018)
 and “large language model” (since October 2019), respectively.
@@ -44,7 +48,7 @@ The statistics are calculated using exact match by querying the keyphrases in ti
 
 
 
-## 🚀(New) Technical Evolution of GPT-series Models
+## Technical Evolution of GPT-series Models
 
 A brief illustration for the technical evolution of GPT-series models. We plot this figure mainly based on the papers, blog articles and official APIs from OpenAI. Here, solid lines denote that there exists an explicit evidence (e.g., the official statement that a new model is developed based on a base model) on the evolution path between two models, while dashed lines denote a relatively weaker evolution relation.
 
@@ -54,7 +58,7 @@ A brief illustration for the technical evolution of GPT-series models. We plot t
 
 
 
-## 🚀(New) Evolutionary Graph of LLaMA Family
+## Evolutionary Graph of LLaMA Family
 
 An evolutionary graph of the research work conducted on LLaMA. Due to the huge number, we cannot include all
 the LLaMA variants in this figure, even much excellent work. 
@@ -70,7 +74,7 @@ To support incremental update, **we share the source file of this figure, and we
 
 
 
-## 🚀(New) Prompts
+## Prompts
 
 We collect some useful tips for designing prompts that are collected from online notes and experiences from our authors, where we also show the related ingredients and principles (introduced in Section 8.1). 
 
@@ -82,7 +86,7 @@ Please click [here](Prompts/README.md) to view more detailed information.
 
 
 
-## 🚀(New) Experiments
+## Experiments
 
 ### Instruction Tuning Experiments
 
@@ -997,4 +1001,9 @@ The authors would like to thank Yankai Lin and Yutao Zhu for proofreading  this 
 | V8                       | 2023/04/27 | Add efficient tuning in Section 5.3                          |
 | V9                       | 2023/04/28 | Revise  Section 5.3                                          |
 | V10                      | 2023/05/07 | Revise Table 1, Table 2, and some minor points.              |
-| V11 <br>(major revision) | 2023/06/29 | – Section 1: add Figure 1 for the trends of published<br/>LLM papers in arXiv;<br/>– Section 2: add Figure 3 for GPT’s evolution and the<br/>corresponding discussion;<br/>– Section 3: add Figure 4 for LLaMA family and the<br/>corresponding discussion;<br/>– Section 5: add latest discussion about the synthetic<br/>data formatting of instruction tuning in Section 5.1.1,<br/>the empirical analysis for instruction tuning in Sec-<br/>tion 5.1.4, parameter-efficient model adaptation in<br/>Section 5.3 and memory-efficient adaptation in Sec-<br/>tion 5.4;<br/>– Section 6: add latest discussion about the underlying<br/>mechanism of ICL 6.1.3, planning for complex task<br/>solving in Section 6.3;<br/>– Section 7: add Table 10 for representative datasets for<br/>evaluating advanced abilities of LLMs, and empirical<br/>ability evaluation in Section 7.3.2;<br/>– Section 8: add prompt design;<br/>– Section 9: add the discussions on applications of<br/>LLMs in finance and scientific research domains; |
+| V11 <br/> (major revision) | 2023/06/29 | – Section 1: add Figure 1 for the trends of published<br/>LLM papers in arXiv;<br/>– Section 2: add Figure 3 for GPT’s evolution and the<br/>corresponding discussion;<br/>– Section 3: add Figure 4 for LLaMA family and the<br/>corresponding discussion;<br/>– Section 5: add latest discussion about the synthetic<br/>data formatting of instruction tuning in Section 5.1.1,<br/>the empirical analysis for instruction tuning in Sec-<br/>tion 5.1.4, parameter-efficient model adaptation in<br/>Section 5.3 and memory-efficient adaptation in Sec-<br/>tion 5.4;<br/>– Section 6: add latest discussion about the underlying<br/>mechanism of ICL 6.1.3, planning for complex task<br/>solving in Section 6.3;<br/>– Section 7: add Table 10 for representative datasets for<br/>evaluating advanced abilities of LLMs, and empirical<br/>ability evaluation in Section 7.3.2;<br/>– Section 8: add prompt design;<br/>– Section 9: add the discussions on applications of<br/>LLMs in finance and scientific research domains; |
+| V12 <br/> (major revision) | 2023/09/10 | – Claim the copyrights of the figures and tables in this paper;<br/>– Add latest LLMs, techniques and their descriptions in Section 3, Section 4, Section 5, Section 6 and Section 7;<br/>– Section 4: add latest discussion about the decoding strategy in Section 4.2.4;<br/>– Section 5: add latest discussion about the practical tricks for instruction tuning in Section 5.1.2, the empirical analysis on LLaMA (13B) for instruction tuning in Section 5.1.4, practical strategies for RLHF in Section 5.2.3, alignment without RLHF in Section 5.2.4 and remarks on SFT and RLHF in Section 5.2.5;<br/>– Section 6: update the content about the planning for complex task solving in Section 6.4;<br/>– Section 7: add discussions about evaluation approaches in Section 7.3.2, Table 15 for the category of existing evaluation work, and update empirical ability evaluation in Section 7.4 and the results on Table 16;<br/>– Section 6.1.1: add new prompt examples in Table 12;|
+| V13 <br/> (major revision) | 2023/11/23 | – Section 1: add Figure 2 for the evolution process of four generations of language models;<br/>– Section 2: add more discussion about scaling laws and how emergent abilities relate to scaling laws;<br/>– Section 3: add latest LLMs in Figure 3 and Table 1, latest APIs in Section 3.1, commonly used datasets for instruction tuning and alignment tuning in Section 3.3, and several libraries in Section 3.4;<br/>– Section 4: add latest discussion about the data scheduling, including data mixtures and data curriculum in Section 4.1.3; add summary of data preparation in Section 4.1.4; add discussion about modeling long context in Section 9.1; add discussion about decoding efficiency issues and add latest decoding strategies in Section 4.2.4;<br/>– Section 5: add latest discussion about instance construction and tuning strategies in Section 5.1; add latest discussion about process-supervised RLHF in Section 5.2.3, and the empirical study on quantized LLaMA models (7B and 13B) in Section 9.5.1;<br/>– Section 6: add latest discussion about prompt optimization in Section 6.1.2, and update the content about chain-of-thought prompting in Section 6.3;<br/>– Section 8: add latest discussion about LLM for research directions in Section 8.1;<br/>– Section 10: revise the content in the several aspects.|
+| V14 | 2024/09/25 | – Section 3: reorganize the content of “public available model checkpoints” into multiple series; add the latest LLMs in Figure 3.<br/>– Section 4: add LLM-based data filtering and selection methods in Section 4.1.2; update Section 4.2.1, “Emergent Architectures” to include more discussions about SSM-based architectures; add Table 6 to compare parallelism and complexity of different architectures.<br/>– Section 5: add latest discussion about instruction quality improvement and instruction selection in Section 5.1.1; add latest discussion about practical strategies for RLHF and process-supervised RLHF in Section 5.2.3; update the content about supervised alignment tuning in Section 5.2.4.<br/>– Section 6: add latest papers about discrete prompt optimization in Section 6.1.2.<br/>– Section 9: add latest discussion about advanced topics, including long context modeling, LLM-based agent, analysis and optimization for training and inference, model inference, model compression, retrieval-augmented generation, and hallucination. |
+| V15 | 2024/10/12 | – Correct the errors in Section 8.1.5. |
+| V16 | 2025/03/11 | – Section 9.8: add latest papers about long CoT reasoning, including the analysis of reasoning patterns and advantages, construction of long CoT data (i.e., distillation, search-based, and multi-agent collaboration), and training methods (i.e., instruction tuning and reinforcement learning). |
