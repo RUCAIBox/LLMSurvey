@@ -970,6 +970,7 @@ Please click [here](Experiments/README.md) to view more detailed information.
 86. **"A Systematic Study and Comprehensive Evaluation of ChatGPT on Benchmark Datasets"**. Laskar et al.* ACL'23. [[Paper]](https://arxiv.org/abs/2305.18486)
 87. **"Red-Teaming Large Language Models using Chain of Utterances for Safety-Alignment"**. *Rishabh Bhardwaj et al*. arXiv 2023. [[Paper](https://arxiv.org/abs/2308.09662)]
 88. **”A Comprehensive Study of Knowledge Editing for Large Language Models“**. *Ningyu Zhang et al*. arXiv 2024. [[Paper](https://arxiv.org/abs/2401.01286)]
+89. **"Phase Transitions in Large Language Models and the $O(N)$ Model"**. *Youran Sun et al*. arXiv 2025. [[Paper](https://arxiv.org/abs/2501.16241)]
 
 ### The Team
 
